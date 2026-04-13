@@ -1,0 +1,957 @@
+/* VARIABLES Y BASE */
+:root {
+    --cun-green: #22c55e;
+    --cun-green-dark: #166534;
+    --cun-gray-dark: #1e293b;
+    --white: #ffffff;
+}
+
+body {
+    margin: 0; 
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f1f5f9; 
+    color: var(--cun-gray-dark);
+    font-size: 1.8rem; 
+}
+
+.app-container { display: flex; height: 100vh; }
+
+/* SIDEBAR Y NAV */
+.sidebar {
+    width: 380px;
+    background-color: var(--cun-gray-dark);
+    padding: 2.5rem 1.2rem; 
+    position: fixed; 
+    height: 100vh;
+}
+
+.brand { 
+    font-size: 2.8rem; 
+    font-weight: 900; 
+    color: var(--cun-green); 
+    text-align: center; 
+    margin-bottom: 3rem; 
+}
+
+.nav-list { list-style: none; padding: 0; margin: 0; }
+
+.nav-label { 
+    font-size: 1.3rem; 
+    color: #64748b; 
+    margin: 1.5rem 0 1rem 10px; 
+    letter-spacing: 2px; 
+}
+
+.nav-btn {
+    width: 100%; 
+    padding: 22px; 
+    background: none; border: none; color: #94a3b8;
+    text-align: left; 
+    font-weight: 700; 
+    cursor: pointer; 
+    border-radius: 10px;
+    margin-bottom: 10px; 
+    transition: 0.3s;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-btn:hover, .nav-btn.active { background-color: var(--cun-green); color: white; }
+
+/* MAIN CONTENT */
+.main-content { 
+    margin-left: 38px; 
+    flex: 1; 
+    padding: 4rem 5rem; 
+    overflow-y: auto; 
+    font-size: 1.1rem;
+}
+.main-content p {
+    font-size: 2rem !important; /* <--- ESTA ES LA QUE TIENES QUE CAMBIAR */
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    color: var(--cun-gray-dark);
+}
+
+.main-title { 
+    font-size: 4rem; 
+    font-weight: 900; 
+    margin-bottom: 2rem; 
+    border-left: 15px solid var(--cun-green); 
+    padding-left: 25px; 
+}
+
+/* CARDS Y CONTENEDORES EXPLICATIVOS */
+
+
+.section-subtitle {
+    color: var(--cun-green-dark);
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+
+/* INSIGHTS GIGANTES (Tus estilos específicos) */
+/* EL CONTENEDOR: Ahora más compacto */
+.contenedor-insights-gigante {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas para que sean pequeñas */
+    gap: 12px;
+    margin-top: 20px;
+}
+
+/* LAS CAJAS: Menos "aire" y bordes más finos */
+.caja-superior {
+    background: white !important;
+    padding: 15px !important;       /* Antes tenías 40px, ahora 15px */
+    border-radius: 10px !important;
+    border-top: 5px solid var(--cun-green) !important; /* Antes 20px, ahora 5px */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05) !important;
+    min-height: auto !important;
+}
+
+/* EL TÍTULO DE LA MÉTRICA: Letra tamaño normal/destacado */
+.titulo-gigante {
+    font-size: 2rem !important;    /* Bajamos de 3.5rem a 1rem */
+    color: var(--cun-gray-dark) !important;
+    font-weight: 700 !important;
+    text-transform: none !important; /* Quitamos las mayúsculas pesadas */
+    margin-bottom: 2px !important;
+    line-height: 1.2 !important;
+}
+
+/* EL TEXTO DESCRIPTIVO: Letra igual a la de las tablas */
+.texto-gigante {
+    font-size: 0.2rem !important;  /* Antes 2.2rem, ahora 0.85rem */
+    color: #4a5568 !important;
+    line-height: 1.4 !important;
+}
+
+/* LAS NEGRITAS DENTRO DE LA MÉTRICA */
+.texto-gigante strong {
+    color: var(--cun-green-dark) !important;
+    font-size: 0.8rem !important;  /* Antes 2.4rem, ahora 0.85rem */
+}
+/* LISTAS GIGANTES */
+ul li {
+    color: #166534 !important; 
+    font-size: 40px !important; 
+    line-height: 1.1 !important;
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+    border-left: 20px solid #112e1b !important;
+    background: #f8fafc !important;
+    display: block !important;
+}
+/* Estilos para la tabla comparativa y componentes nuevos */
+
+.comparative-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 60px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.comparative-table th {
+    background: #00db7b;
+    color: #1a202c;
+    padding: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.comparative-table td {
+    padding: 15px;
+    border-bottom: 1px solid #edf2f7;
+     font-size: 1.1rem;
+    vertical-align: top;
+    color: #2d3748;
+}
+
+.metric-badge {
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 5px;
+    background: #f1f5f9;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* Colores de Tendencia (Calor) */
+.calor-up {
+    color: #2f855a;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.calor-down {
+    color: #c53030;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.calor-stable {
+    color: #718096;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* Caja de Metodología */
+.explicacion-box {
+    background: #f8fafc;
+    padding: 10px;
+    border-left: 5px solid #00db7b;
+    margin: 20px 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.metodologia-titulo {
+    margin-top: 0;
+    color: #1a202c;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.highlight-text {
+    color: #00db7b;
+    font-weight: 700;
+}
+
+small {
+    color: #718096;
+    line-height: 1.2;
+}
+:root {
+    --cun-green: #00db7b;
+    --cun-green-dark: #00a85d;
+    --cun-gray-dark: #2d3748;
+    --bg-light: #f7fafc;
+    --sidebar-bg: #1a202c;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-light);
+    margin: 0;
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 260px;
+    background: var(--sidebar-bg);
+    color: white;
+    height: 100vh;
+    position: fixed;
+    padding: 10px;
+}
+
+.brand {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--cun-green);
+}
+
+.nav-section-title {
+    color: #4a5568;
+    font-size: 0.7rem;
+    font-weight: 900;
+    margin: 20px 0 10px 10px;
+    text-transform: uppercase;
+}
+
+.nav-btn {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 8px;
+    background: none;
+    border: none;
+    color: #a0aec0;
+    text-align: left;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+.nav-btn.active, .nav-btn:hover {
+    background: var(--cun-green);
+    color: #1a202c;
+    font-weight: 700;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 300px;
+    padding: 40px;
+    width: calc(100% - 340px);
+}
+
+.tab-pane {
+    display: none;
+    animation: fadeIn 0.5s;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.main-title {
+    font-weight: 900;
+    color: var(--cun-gray-dark);
+    border-bottom: 4px solid var(--cun-green);
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.info-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.sub-title {
+    font-weight: 700;
+    color: var(--cun-green-dark);
+    margin: 2rem 0 1rem 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+th {
+    background: #edf2f7;
+    padding: 15px;
+    text-align: left;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #4a5568;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #edf2f7;
+    color: #2d3748;
+}
+
+/* Badges y Números */
+.badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.badge-critico { background: #fed7d7; color: #822727; }
+.badge-pos { background: #c6f6d5; color: #22543d; }
+
+.num {
+    font-weight: 900;
+    color: var(--cun-green);
+    font-size: 1.2rem;
+    width: 40px;
+}
+
+/* Citas */
+.quote-table td {
+    border-bottom: none;
+    font-style: italic;
+    color: #4a5568;
+}
+
+.quote-mark {
+    font-size: 3rem;
+    color: var(--cun-green);
+    font-family: serif;
+    line-height: 0;
+    vertical-align: -15px;
+}
+:root { 
+    --cun-green: #00db7b; 
+    --cun-green-dark: #00a85d; 
+    --cun-gray-dark: #2d3748; 
+}
+
+body { 
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #f7fafc; 
+    margin: 0; 
+    display: flex; 
+}
+
+/* BARRA LATERAL */
+.sidebar { 
+    width: 260px; 
+    background: #1a202c; 
+    color: white; 
+    height: 100vh; 
+    position: fixed; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.brand { 
+    font-weight: 900; 
+    font-size: 1.5rem; 
+    margin-bottom: 2rem; 
+    color: var(--cun-green); 
+}
+
+.nav-label {
+    color: #4a5568; 
+    font-size: 0.7rem; 
+    font-weight: 30; 
+    margin: 20px 0 10px 10px; 
+    text-transform: uppercase;
+}
+
+.nav-btn {
+    width: 100%;
+    padding: 8px 12px;        /* Antes 12px, ahora más pequeño */
+    margin-bottom: 6px;       /* Antes 8px, ahora más pequeño */
+    font-size: 0.8rem;        /* Antes 0.9rem, ahora más pequeño */
+    border-radius: 6px;       /* Antes 8px, ahora más pequeño */
+}
+
+.nav-btn.active, .nav-btn:hover { 
+    background: var(--cun-green); 
+    color: #1a202c; 
+    font-weight: 700; 
+}
+
+/* CONTENIDO PRINCIPAL */
+.main-content { 
+    margin-left: 260px; 
+    padding: 40px; 
+    width: calc(100% - 260px); 
+    box-sizing: border-box;
+}
+
+.tab-pane { 
+    display: none; 
+    animation: fadeIn 0.5s; 
+}
+
+.tab-pane.active { 
+    display: block; 
+}
+
+@keyframes fadeIn { 
+    from { opacity: 0; } 
+    to { opacity: 1; } 
+}
+
+.main-title { 
+    font-weight: 900; 
+    color: var(--cun-gray-dark); 
+    border-bottom: 4px solid var(--cun-green); 
+    display: inline-block; 
+    margin-bottom: 2rem; 
+}
+
+.sub-title { 
+    font-weight: 700; 
+    color: var(--cun-green-dark); 
+    margin: 2rem 0 1rem 0; 
+    text-transform: uppercase; 
+    font-size: 1.1rem; 
+}
+
+/* TABLAS Y TARJETAS */
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-bottom: 2rem; 
+    background: white; 
+    border-radius: 12px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+}
+
+th { 
+    background: #edf2f7; 
+    padding: 15px; 
+    text-align: left; 
+    font-size: 0.8rem; 
+    text-transform: uppercase; 
+    color: #4a5568; 
+}
+
+td { 
+    padding: 15px; 
+    border-bottom: 1px solid #edf2f7; 
+    color: #2d3748; 
+}
+
+.badge { 
+    padding: 4px 12px; 
+    border-radius: 20px; 
+    font-size: 0.75rem; 
+    font-weight: 700; 
+}
+
+.badge-critico { background: #fed7d7; color: #822727; }
+.badge-pos { background: #c6f6d5; color: #22543d; }
+
+.quote-mark { 
+    font-size: 3rem; 
+    color: var(--cun-green); 
+    font-family: serif; 
+    line-height: 0; 
+    vertical-align: -15px; 
+}
+
+.num { 
+    font-weight: 900; 
+    color: var(--cun-green); 
+    font-size: 1.2rem; 
+    width: 40px; 
+}
+
+.summary-box {
+    background: white; 
+    padding: 2rem; 
+    border-radius: 15px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    line-height: 1.6;
+}
+/* Variables de Identidad CUN */
+:root {
+    --cun-green: #00db7b;
+    --cun-green-dark: #00a85d;
+    --cun-gray-dark: #2d3748;
+    --cun-bg: #f7fafc;
+    --sidebar-bg: #1a202c;
+    --text-main: #2d3748;
+    --text-muted: #718096;
+    --border-color: #edf2f7;
+}
+
+/* Reset y Estilos Base */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cun-bg);
+    margin: 0;
+    display: flex;
+}
+
+/* Sidebar / Menú Lateral */
+.sidebar {
+    width: 260px;
+    background: var(--sidebar-bg);
+    color: white;
+    height: 100vh;
+    position: fixed;
+    padding: 20px;
+}
+
+.brand {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--cun-green);
+    letter-spacing: 1px;
+}
+
+.sidebar-label {
+    color: #4a5568;
+    font-size: 0.7rem;
+    font-weight: 900;
+    margin: 20px 0 10px 10px;
+    text-transform: uppercase;
+}
+
+.nav-btn {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 8px;
+    background: none;
+    border: none;
+    color: #a0aec0;
+    text-align: left;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    transition: 0.3s;
+    border-radius: 8px;
+    font-weight: 400;
+}
+
+.nav-btn.active, .nav-btn:hover {
+    background: var(--cun-green);
+    color: var(--sidebar-bg);
+    font-weight: 700;
+}
+
+/* Contenedor Principal */
+.main-content {
+    margin-left: 300px;
+    padding: 40px;
+    width: calc(100% - 340px);
+}
+
+/* Sistema de Pestañas */
+.tab-pane {
+    display: none;
+    animation: fadeIn 0.5s;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Títulos */
+.main-title {
+    font-weight: 900;
+    color: var(--cun-gray-dark);
+    border-bottom: 4px solid var(--cun-green);
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.sub-title {
+    font-weight: 700;
+    color: white;
+    background: var(--cun-gray-dark);
+    margin: 2rem 0 1rem 0;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    border-left: 5px solid var(--cun-green);
+}
+
+/* Contenedores de Ítems */
+.item-container {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border: 1px solid #e2e8f0;
+}
+
+.item-header {
+    font-weight: 700;
+    color: var(--cun-green-dark);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 5px;
+}
+
+/* Tablas de Métricas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    background: #f8fafc;
+    padding: 12px;
+    text-align: left;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    border: 1px solid var(--border-color);
+}
+
+td {
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    font-size: 0.85rem;
+}
+
+/* Badges de Estado */
+.badge {
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.badge-critico {
+    background: #fff5f5;
+    color: #c53030;
+    border: 1px solid #feb2b2;
+}
+
+.badge-pos {
+    background: #f0fff4;
+    color: #2f855a;
+    border: 1px solid #9ae6b4;
+}
+
+/* Verbatims y Evidencia */
+.verbatim {
+    background: #f7fafc;
+    border-left: 4px solid var(--cun-green);
+    padding: 20px;
+    font-style: italic;
+    color: #4a5568;
+    position: relative;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Insight Box */
+.insight-box {
+    background: #fffaf0;
+    border: 1px solid #feebc8;
+    padding: 18px;
+    border-radius: 8px;
+    color: #744210;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+/* VARIABLES DE IDENTIDAD CUN */
+:root {
+    --cun-green: #00db7b;
+    --cun-green-dark: #00a85d;
+    --cun-gray-dark: #2d3748;
+    --bg-light: #f7fafc;
+    --sidebar-bg: #1a202c;
+    --text-main: #2d3748;
+    --text-muted: #718096;
+    --border-color: #edf2f7;
+}
+
+/* RESET Y BASE */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-light);
+    margin: 0;
+    display: flex;
+}
+
+/* SIDEBAR / MENÚ LATERAL */
+.sidebar {
+    width: 260px;
+    background: var(--sidebar-bg);
+    color: white;
+    height: 100vh;
+    position: fixed;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.brand {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--cun-green);
+    letter-spacing: 1px;
+}
+
+.sidebar-label {
+    color: #4a5568;
+    font-size: 0.7rem;
+    font-weight: 900;
+    margin: 20px 0 10px 10px;
+    text-transform: uppercase;
+}
+
+.nav-btn {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 8px;
+    background: none;
+    border: none;
+    color: #a0aec0;
+    text-align: left;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    transition: 0.3s;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+.nav-btn.active, .nav-btn:hover {
+    background: var(--cun-green);
+    color: var(--sidebar-bg);
+    font-weight: 700;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.main-content {
+    margin-left: 280px;
+    padding: 40px;
+    width: calc(100% - 320px);
+    box-sizing: border-box;
+}
+
+/* SISTEMA DE PESTAÑAS */
+.tab-pane {
+    display: none;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* TÍTULOS */
+.main-title {
+    font-weight: 900;
+    color: var(--cun-gray-dark);
+    border-bottom: 4px solid var(--cun-green);
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.sub-title {
+    font-weight: 700;
+    color: white;
+    background: var(--cun-gray-dark);
+    margin: 2rem 0 1rem 0;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    border-left: 5px solid var(--cun-green);
+}
+
+/* CONTENEDORES DE ITEMS */
+.item-container {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border: 1px solid #e2e8f0;
+}
+
+.item-header {
+    font-weight: 700;
+    color: var(--cun-green-dark);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 5px;
+}
+
+/* TABLAS DE MÉTRICAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    background: #f8fafc;
+    padding: 12px;
+    text-align: left;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    border: 1px solid var(--border-color);
+}
+
+td {
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    font-size: 0.85rem;
+}
+
+/* BADGES DE ESTADO */
+.badge {
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.badge-critico {
+    background: #fff5f5;
+    color: #c53030;
+    border: 1px solid #feb2b2;
+}
+
+.badge-pos {
+    background: #f0fff4;
+    color: #2f855a;
+    border: 1px solid #9ae6b4;
+}
+
+/* VERBATIMS Y EVIDENCIA */
+.verbatim {
+    background: #f7fafc;
+    border-left: 4px solid var(--cun-green);
+    padding: 20px;
+    font-style: italic;
+    color: #4a5568;
+    position: relative;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* INSIGHT BOX */
+.insight-box {
+    background: #fffaf0;
+    border: 1px solid #feebc8;
+    padding: 18px;
+    border-radius: 8px;
+    color: #744210;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.accordion-btn:hover {
+    background-color: rgba(0,0,0,0.02) !important;
+}
+
+.accordion-btn span {
+    transition: transform 0.3s ease;
+}
+
+#accordion-content {
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

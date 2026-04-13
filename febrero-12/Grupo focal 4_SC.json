@@ -1,0 +1,680 @@
+{
+  "metadata": {
+    "archivo": "Grupo focal 4_SC.wav",
+    "fecha": "2026-02-13 15:33:19.039608"
+  },
+  "segmentos": [
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 0.0,
+      "texto": "plataformas digitales y todo el material de apoyo.",
+      "fin": 2.853
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 2.853,
+      "texto": "Y los materiales de apoyo, es como mucho más fácil entender las cosas que en clase.",
+      "fin": 7.373
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 7.952,
+      "texto": "Okay, súper.",
+      "fin": 9.092
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 9.902,
+      "texto": "Entonces, en general, qué ha sido como una experiencia buena, positiva, ¿sí?",
+      "fin": 14.482
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 14.642,
+      "texto": "¿Alguno piensa lo contrario?",
+      "fin": 16.322
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 18.782,
+      "texto": "¿No?",
+      "fin": 18.962
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 19.932,
+      "texto": "Entonces, cambio la pregunta, ¿qué ha sido como lo más difícil o lo más frustrante de estudiar acá? O de ustedes desde lo administrativo, lo académico, en general.",
+      "fin": 29.622
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 31.682,
+      "texto": "Pues yo tengo una falencia y uno es lo que dijo, eh, en el tema de profesores, muy bien, tampoco he tenido ningún inconveniente, pero sí tuve una falencia con la administración el semestre pasado y por eso no pude estudiar, me tocó aplazar un semestre y ahora ir en cuarto semestre.",
+      "fin": 44.862
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 46.42,
+      "texto": "Yo me acerqué a hablar, va a decirte un promedio porque no sé fechas exactas. Eh, tenía que pagar, digamos hasta el 20 de agosto y yo vine a hablar porque pues lastimosamente en el trabajo en el que yo estaba en ese momento, a mí me pagaban hasta el 25. Entonces yo vine a hablar porque pues claramente no podía cancelar antes, sinceramente. Y va a ser financiado tampoco pude.",
+      "fin": 103.342
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 103.772,
+      "texto": "Y yo vine, conversé, la chica me dijo como, voy a dejar una matrícula extraordinaria en sistema. Y cuando vine yo por el 25, no había nada. Y me quedé sin estudio.",
+      "fin": 113.952
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 115.692,
+      "texto": "Digamos, bueno, ya por, por, por temas eh, de los profesores y que también Juan me lo permitió, muchas de otras cosas, me dijeron como seguí en el equipo, seguí viniendo, pues a la cuestión porque yo pretendía retirarme claramente, porque me dijeron una cosa y después salieron con otra.",
+      "fin": 131.512
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 131.852,
+      "texto": "Entonces, no sé, si siento que es como de valorar el tema del sistema y ahorita estamos viviendo lo mismo con un compañero de nosotros.",
+      "fin": 137.602
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 137.892,
+      "texto": "De que pues uno viene y habla y dice como, sí, quiero generar tal pacto, pues para poder cancelar en, en esta fecha, que es en la que pues puedo de pronto llegar a cancelar.",
+      "fin": 146.162
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 146.392,
+      "texto": "Y a diferencia, o sea, me dicen como, no, en esta fecha no van a poder cancelar, o sea, no te vamos a dejar cancelar, entonces, pues busca otro método o te podemos dar otra solución, de pronto así sabiendo, etcétera. A mí no me dieron ninguna solución. La solución que me dieron fue, espérate hasta el otro semestre.",
+      "fin": 158.972
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 159.432,
+      "texto": "No solamente perjudicados nosotros, eh. Entonces digo que digamos no me cambia por muchas otras cosas como que académicamente no es buena, físicamente los salones, los aulas, el acogimiento, perfecto.",
+      "fin": 208.442
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 208.702,
+      "texto": "Pero pues ese ese tema así como desde evaluarlo y tal vez mirar si se puede llegar a cambiar algo para no tener esa falencia.",
+      "fin": 214.482
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 214.872,
+      "texto": "Porque digamos uno como que ya conoce, como digo yo, hoy pasaría a cuarto semestre, eh pues uno ya conoce la universidad, tiene muchas otras cosas, pero digamos una persona que llega al primer semestre, pues se va a ir, no va a tener referencia de la universidad, por ejemplo.",
+      "fin": 226.952
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 227.852,
+      "texto": "Entonces es como la única falencia que yo he tenido, pero pues el resto no he tenido ninguna queja.",
+      "fin": 233.0
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 233.384,
+      "texto": "Okay.",
+      "fin": 233.634
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 234.494,
+      "texto": "¿Los demás?",
+      "fin": 235.104
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 236.994,
+      "texto": "[murmullos]",
+      "fin": 238.224
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 239.414,
+      "texto": "Todo ha sido fácil, maravilloso, no ha tenido ningún problema.",
+      "fin": 242.354
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 244.244,
+      "texto": "[murmullos]",
+      "fin": 244.814
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 245.934,
+      "texto": "En el momento no.",
+      "fin": 246.754
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 247.794,
+      "texto": "En cuanto a lo académico tampoco.",
+      "fin": 249.154
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 250.904,
+      "texto": "Sí.",
+      "fin": 251.304
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 251.754,
+      "texto": "No. No, eh, académicamente no puedo escribir, no me deja ver unas materias.",
+      "fin": 258.464
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 259.104,
+      "texto": "O sea, que estoy viendo este semestre, estoy y no me aparecen, no he podido entrar a clase ni ni entrar a la plataforma, porque ahí es donde están las materias, pero no me aparece y aparece en una lista y nada. Este semestre ha sido complicado para mí.",
+      "fin": 311.424
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 311.784,
+      "texto": "Okay. ¿Y has enviado Camitiket, sí, te han dado respuesta?",
+      "fin": 315.784
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 316.794,
+      "texto": "No, no hay respuesta.",
+      "fin": 317.484
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 317.854,
+      "texto": "Desde la persona ahora tampoco.",
+      "fin": 319.64
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 320.564,
+      "texto": "Okay. ¿Y eso te suele pasar mucho?",
+      "fin": 321.844
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 322.384,
+      "texto": "No, es la primera vez.",
+      "fin": 323.744
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 324.434,
+      "texto": "O sea, no me refiero a lo de las materias, sino como, no sé, que tengas como una que hagas alguna solicitud y no te den respuesta o...",
+      "fin": 329.724
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 330.804,
+      "texto": "Pues por lo general se demoran 5 días hábiles, pero ya lleva más tiempo, la verdad.",
+      "fin": 334.644
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 334.644,
+      "texto": "Lo presenté en el martes pasado, en la semana pasada, que no podía entrar a clase ni nada.",
+      "fin": 339.794
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 340.604,
+      "texto": "Okay, listo.",
+      "fin": 341.64
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 342.74,
+      "texto": "Y qué ha sido mejor de lo que esperaban cuando recién iniciaron.",
+      "fin": 348.674
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 357.674,
+      "texto": "Lo académico.",
+      "fin": 358.634
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 359.194,
+      "texto": "Total.",
+      "fin": 359.584
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 400.274,
+      "texto": "¿No esperabas tanto de lo académico?",
+      "fin": 401.934
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 402.644,
+      "texto": "Porque digamos, yo que hice el cambio de de universidad, la Católica siempre tiene un renombre, pero digamos, allá los profesores no por decirlo así no son o sea, no les importa el estudiante como tal. O sea, les importa enseñar, hacer su trabajo e irse.",
+      "fin": 421.744
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 422.154,
+      "texto": "Cambio acá el acompañamiento de los profesores es muy distinto.",
+      "fin": 424.604
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 424.994,
+      "texto": "O sea, acá le enseñan pero no solo en lo académico, sino también le enseñan como, por decirlo así, como persona y y y tiene como ese don de docencia que les gusta enseñar.",
+      "fin": 439.784
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 440.484,
+      "texto": "Entonces, yo lo sentí así, o sea, uno pues normalmente pasar de esa universidad acá, pues yo dije, el golpe va a ser duro, pero o sea, me llevé una, una muy buena experiencia.",
+      "fin": 450.114
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 450.714,
+      "texto": "Okay.",
+      "fin": 450.984
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 452.434,
+      "texto": "Los demás.",
+      "fin": 452.954
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 453.574,
+      "texto": "¿Qué ha sido mejor de lo que esperaban?",
+      "fin": 455.184
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 456.44,
+      "texto": "O sea, cuando ustedes recién ingresaron a la CUN dijeron como, no sé, la CUN es así y así, pero realmente es así.",
+      "fin": 501.544
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 501.974,
+      "texto": "Las instalaciones.",
+      "fin": 502.854
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 503.224,
+      "texto": "Las instalaciones, okay, las sedes.",
+      "fin": 504.774
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 505.494,
+      "texto": "Okay. ¿Qué más?",
+      "fin": 506.574
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 507.694,
+      "texto": "También las instalaciones, pero a mí me sorprendió fue los salones de informática que la mayoría en Cúa también dotados en los computadores, no esperaba que todo estuviera bien.",
+      "fin": 517.344
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 518.154,
+      "texto": "Okay, entonces.",
+      "fin": 520.134
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 520.974,
+      "texto": "Okay. Y en cuanto a esas expectativas de cuando recién ingresaron, ustedes sienten que sí se han cumplido o a medias o nada.",
+      "fin": 528.904
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 529.664,
+      "texto": "Bueno, ustedes apenas están empezando, pero pues igual tienen alguna idea de de lo que esperaban.",
+      "fin": 534.644
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 535.694,
+      "texto": "Sí, sí se han cumplido.",
+      "fin": 536.994
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 538.164,
+      "texto": "¿Cómo qué?",
+      "fin": 538.644
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 539.414,
+      "texto": "Digamos, yo, o sea, yo la verdad siempre tuve las expectativas altas.",
+      "fin": 544.604
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 545.414,
+      "texto": "Y digamos con las clases yo el primer día que llegué, todo bien. Y esta semana que ya empezamos a ver clases común y corriente, no, muy bien, son muy dinámicas las clases. Entonces, por ese lado, muy bien. También las instalaciones.",
+      "fin": 559.754
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 600.584,
+      "texto": "Okay.",
+      "fin": 601.144
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 604.414,
+      "texto": "¿Qué expectativas tenían entonces?",
+      "fin": 605.924
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 612.444,
+      "texto": "No sé, pongo un ejemplo, eh no sé, para mí el estudiar en la CUN era hm representaba que iba a poder conseguir un trabajo o era que iba a poder aprender lo que yo siempre quise aprender.",
+      "fin": 626.154
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 627.324,
+      "texto": "Entonces, esa sería mi expectativa y no sé, quisiera saber si ¿cuál expectativa tenían y si realmente la cumplió?",
+      "fin": 631.944
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 635.984,
+      "texto": "Pues a mí la expectativa, o sea, lo que te digo, yo apenas hice el cambio, la expectativa de al principio de poder conseguir un trabajo.",
+      "fin": 644.484
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 644.984,
+      "texto": "Que uno pues cuando tiene, o sea, está más joven y y tiene esa tonta idea pues de que los papás como que se va a caracterizar, digamos, que si uno no sale de una universidad de renombre, pues no va a tener trabajo, por decirlo así. Entonces, eso siempre a uno le va a generar como cierto miedo o frustración, pero pues a la hora de uno salir es normal.",
+      "fin": 703.304
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 703.954,
+      "texto": "Y pues yo siempre he dicho, independientemente del estudio que le brinde a uno la universidad, uno el profesional lo hace uno mismo, o sea, uno también se tiene que educar por aparte, o sea, tiene que aprender solo porque pues no solo se lo puede entregar todo la universidad.",
+      "fin": 718.564
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 718.964,
+      "texto": "Entonces, creo que esa, esa fue la expectativa más que la que más rompí, por por decirlo así.",
+      "fin": 725.524
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 726.444,
+      "texto": "Okay.",
+      "fin": 726.774
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 728.384,
+      "texto": "¿Ustedes, ustedes, no sé?",
+      "fin": 729.434
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 732.514,
+      "texto": "Pues digamos que en el tema más que nada hacia académico porque uno diría como, o sea, pues uno escucha, por lo menos yo como que en otras universidades, es lo que decía, por ejemplo, eh, Juan, en el tema de de que las universidades, un ejemplo, yo estudiaba en la Politécnico, porque yo también estudié acá.",
+      "fin": 752.624
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 752.624,
+      "texto": "Yo estudiaba en la Politécnico y y era así como que yo explico y pues usted entendió bien, pero si usted me hace una pregunta, pues yo igual tengo más clases, tengo más, más alumnos, etcétera.",
+      "fin": 802.844
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 803.524,
+      "texto": "Acá no, uno va, profe, tal cosa, tal cuestión, eh, ey, bueno, lo de, lo voy a mandar un correo. En segundo semestre me pasó que iba a una materia y le dije, profe, como quiero reforzar tal cosa porque siento que estoy flojo en eso.",
+      "fin": 816.354
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 816.854,
+      "texto": "Listo, que ese después de clases nos quedamos después de la una, 20 minuticos más, media hora, reforzamos, bien, normal.",
+      "fin": 821.644
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 822.274,
+      "texto": "Entonces, como que eso no, como le digo, no se escucha tan abierto de cualquier universidad. Entonces, creo que eso también superó las expectativas porque uno, pues no, no espera, pues yo no esperaba eso, la verdad.",
+      "fin": 831.814
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 833.384,
+      "texto": "Okay.",
+      "fin": 833.704
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 834.864,
+      "texto": "¿Alguna más?",
+      "fin": 835.714
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 838.194,
+      "texto": "Okay, entonces ya para cerrar, eh quisiera que me dijeran como, ¿cuál sería esa acción que ustedes dirían como que les podría hacer mejor este semestre de parte de la institución?",
+      "fin": 849.174
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 901.144,
+      "texto": "¿Me repite la pregunta?",
+      "fin": 902.374
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 903.194,
+      "texto": "¿Cuál sería esa acción que podría hacer la institución para que su semestre fuera mejor ahorita?",
+      "fin": 907.344
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 918.674,
+      "texto": "Les pongo un ejemplo, no sé, que me respondan el Camitiket que envié hace una semana, eh que, no sé, mejoren las canchas, que den más presupuesto, no sé.",
+      "fin": 931.694
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 936.54,
+      "texto": "Sí.",
+      "fin": 936.314
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 937.664,
+      "texto": "No, pues para mí, o sea, pido una, una buena chica de mi parte, si yo lo veo con, con eso, el presupuesto.",
+      "fin": 943.534
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 944.484,
+      "texto": "Porque digamos, es lo que te digo, digamos, yo ya llevo acá siempre tiempo y pues esa cancha que tú ves ahí, cuando no yo estaba, esa cancha no era lo que, o sea, los que vienen ahorita van a disfrutar muchísimo.",
+      "fin": 956.564
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 956.904,
+      "texto": "La cancha de nosotros, nosotros no la teníamos, la cancha estaba hundida, le tocó levantarla como un año completo, nosotros no tenemos para competencias, digamos de Ascun, nosotros no tenemos competencias, un coliseo o algo así, pues tampoco estamos diciendo, no, pero pues sí como invertirle un poquito más.",
+      "fin": 1022.584
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 1022.584,
+      "texto": "Antes nosotros teníamos un convenio con un gimnasio. Entonces, son cosas que sí, o sea, deportivamente nos han apoyado mucho, porque tampoco vamos a decir que no, pero sí nos hace falta como como eso, porque nosotros sabemos que a la final el dinero está. Solo que debe haber algo, es por qué. Porque pues nosotros a la final eh, hay muchos chicos que les gusta esto. Entonces, deberían como apoyarlos un poquito más. Obviamente nosotros nos apoyan mucho con becas y todo el tema, pero sí como ese empujoncito con, con presupuesto, creo que nos, nos haría muy bien, sobre todo a nosotros que que practicamos este deporte.",
+      "fin": 1051.724
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1053.54,
+      "texto": "Okay.",
+      "fin": 1053.304
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1054.104,
+      "texto": "¿Qué otra?",
+      "fin": 1054.404
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 1054.684,
+      "texto": "Pues bueno, yo voy a otra referencia también en deportes, por ejemplo, de que como nosotros tenemos esta cancha, no nos tenemos que ir a todas las canchas.",
+      "fin": 1102.374
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 1102.724,
+      "texto": "Digamos, por ejemplo, nosotros vamos el martes y jueves, voleibol si no estoy mal, pagan miércoles, miércoles y viernes, creo, y los de baloncesto pagan como que lunes y sábado.",
+      "fin": 1113.954
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 1114.424,
+      "texto": "Entonces, digo, por ejemplo, creo que puesto todos somos igual de importantes, no voy a decir, o sea, ni el voleibol es más ni el baloncesto es más, o sea, todo deporte es importante. Y pues por ejemplo, era lo que yo comentaba.",
+      "fin": 1123.714
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 1123.714,
+      "texto": "No sé si todos estén, digamos, en los mismos torneos que estamos nosotros. Hablo de voleibol porque sé que voleibol, por ejemplo, está en Ascun y demás. Y también han sacado muy buenos resultados, y es, por ejemplo, como el de decir de que si nosotros quisiéramos entrenar lunes, miércoles y viernes, no se puede.",
+      "fin": 1138.814
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 1139.994,
+      "texto": "Y si voleibol quisiera entrenar también lunes, miércoles y viernes, no se puede, porque no hay los espacios. Lo que dice, lo que dice Juan, es verdad. Digamos en el tema de de que uno tampoco se esté viendo como que, ey, una cosa de la otra, digamos, este semestre a nosotros que nos mejoró mucho, una cosa y otra cosa, es como que les tenemos coliseo para ciertas cosas.",
+      "fin": 1200.264
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 1200.264,
+      "texto": "Obviamente a la exposición que no nos puedan brindar, para eso también ya es una ayuda grandísima, que nosotros ya tenemos una estadía, por ejemplo, en Ascun, entre otras cosas, pero también es como de darle también esa tranquilidad no solo a nosotros, sino también a todos los deportes para que no estemos como en esa cuestión de que de pronto en algún momento se grite que nos cursamos por X o Y razón, fútbol y voleibol y entonces va a haber un ahí porque entonces mi deporte es importante y el suyo también es importante.",
+      "fin": 1224.454
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 1224.994,
+      "texto": "Es como también tenerlo un poquito en cuenta para pues de pronto mejorar a futuro, digamos, nosotros que cada vez no es que ya, que si puedes correr.",
+      "fin": 1231.834
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1232.384,
+      "texto": "Okay.",
+      "fin": 1232.664
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1234.604,
+      "texto": "¿Alguno más por acá?",
+      "fin": 1235.284
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 1235.664,
+      "texto": "Yo, con lo financiero, la verdad.",
+      "fin": 1237.344
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 1238.544,
+      "texto": "Porque casi no puedo escribir este semestre, casi no puedo escribir materias este semestre.",
+      "fin": 1242.374
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 1242.914,
+      "texto": "La verdad, como que cada vez me ponían un precio más alto y no me daban el descuento que yo tenía ni nada, entonces casi no puedo escribir.",
+      "fin": 1249.954
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1250.564,
+      "texto": "Okay.",
+      "fin": 1251.244
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1254.394,
+      "texto": "¿Por acá?",
+      "fin": 1254.954
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1257.384,
+      "texto": "¿Nada?",
+      "fin": 1257.514
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1301.934,
+      "texto": "Ustedes que apenas están empezando, ¿qué les gustaría como que les la institución les brindara, por ejemplo, ahorita?",
+      "fin": 1307.384
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 1310.984,
+      "texto": "Mmm, no, también lo de las canchas.",
+      "fin": 1313.214
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 1313.414,
+      "texto": "Pero es que digamos que somos tan nuevos que no podríamos opinar de tantas cosas. Todavía no hemos estado tanto tiempo para como las, o sea, sí falta antes que tiene la...",
+      "fin": 1324.984
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1325.524,
+      "texto": "Okay.",
+      "fin": 1326.404
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 1327.544,
+      "texto": "Pues lo único sería digamos que ahorita estábamos en la sede A, estábamos jugando ping-pong y pues las raquetas pues son están desechas. Y en general también pues los juegos ya están bastante derretos, bastante deteriorados. Entonces, yo creo que en la parte como de pronto ahí cada cierto tiempo de pronto renovar esa parte.",
+      "fin": 1344.604
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 1345.904,
+      "texto": "No solo digamos los que hay, sino de pronto también abrir repertorio, porque a veces muchas veces pues nos dan todos como muy clásico, sí, pues hay veces que uno allá quiere entonces digamos despejar la mente, pero pues no le llama la atención.",
+      "fin": 1358.994
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1359.694,
+      "texto": "Okay.",
+      "fin": 1400.244
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1400.874,
+      "texto": "Listo.",
+      "fin": 1401.144
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1401.424,
+      "texto": "Listo, chicos, ya no les quito más tiempo para que vayan a entrenar. Eh, les voy a pasar un QR para que llenen sus datos, por.",
+      "fin": 1408.954
+    }
+  ]
+}

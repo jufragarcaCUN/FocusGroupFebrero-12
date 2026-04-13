@@ -1,0 +1,1622 @@
+{
+  "metadata": {
+    "archivo": "Grupo focal 5_JG.mp4",
+    "fecha": "2026-02-18 10:02:58.809294"
+  },
+  "segmentos": [
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 0.0,
+      "texto": "porque necesito hacerle un análisis a esto. Esta información que yo voy a tomar, básicamente nosotros construimos un software que lo que hace es como analizar eh la percepción que ustedes tienen frente a las preguntas que yo le voy a hacer. ¿Listo?",
+      "fin": 14.373
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 15.432,
+      "texto": "La primera pregunta, todos ya saben mi nombre?",
+      "fin": 17.652
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 17.755,
+      "texto": "No. No.",
+      "fin": 18.425
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 18.662,
+      "texto": "Bueno, yo soy Juan Francisco. ¿Saben a qué área pertenezco?",
+      "fin": 21.032
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 21.144,
+      "texto": "No.",
+      "fin": 21.674
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 22.102,
+      "texto": "Pertenezco a servicios digitales. Servicios digitales es todo lo que tiene que ver con el soporte tecnológico que ustedes utilizan y que nosotros como empleados utilizamos.",
+      "fin": 30.292
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 31.252,
+      "texto": "Eh y ya. Creo que en términos generales, yo estoy en Chapinero, no tenía el gusto de conocer la sede.",
+      "fin": 37.662
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 39.462,
+      "texto": "Solamente había venido una vez a la del centro, ni siquiera conocía esto, me pareció super chévere.",
+      "fin": 42.422
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 43.182,
+      "texto": "Con razón ustedes se la pasan por acá.",
+      "fin": 44.882
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 46.032,
+      "texto": "Bueno, muchachos, eh ¿todos se conocen?",
+      "fin": 48.912
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 49.654,
+      "texto": "Sí. Sí.",
+      "fin": 50.114
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 50.564,
+      "texto": "Más o menos. Él no, él no.",
+      "fin": 51.644
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 52.014,
+      "texto": "Él no, él no. Él solo el primer semestre.",
+      "fin": 54.784
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 55.064,
+      "texto": "A él lo vi el primer semestre, eso fue porque me ayudó con la tarea.",
+      "fin": 57.944
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 58.624,
+      "texto": "En serio?",
+      "fin": 59.984
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 59.984,
+      "texto": "[Risas]",
+      "fin": 100.734
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 101.444,
+      "texto": "Listo, entonces vamos a hacer una cosa.",
+      "fin": 102.974
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 103.546,
+      "texto": "Serio?",
+      "fin": 103.886
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 104.344,
+      "texto": "Cada uno de ustedes va a dar un dato que no es cierto. Y las otras personas tienen que adivinar. ¿Qué dato no es cierto? ¿Listo?",
+      "fin": 112.924
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 113.364,
+      "texto": "O sea, una mentira.",
+      "fin": 114.074
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 114.494,
+      "texto": "Sí. Yo voy a ser el primero. Este es el primero es que",
+      "fin": 118.784
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 119.534,
+      "texto": "Mentira.",
+      "fin": 120.084
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 120.374,
+      "texto": "soy abogado, eh tengo 32 años y tengo tres hijos.",
+      "fin": 127.894
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 130.017,
+      "texto": "Uno de esos es mentira.",
+      "fin": 131.257
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 131.707,
+      "texto": "O todo, o puede que todo sea mentira.",
+      "fin": 133.007
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 133.007,
+      "texto": "O puede que todo sea mentira.",
+      "fin": 133.747
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 134.347,
+      "texto": "Yo digo que la abogada.",
+      "fin": 135.217
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 135.597,
+      "texto": "No tienes 32 años.",
+      "fin": 136.257
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 136.637,
+      "texto": "No tiene sentido.",
+      "fin": 137.407
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 137.667,
+      "texto": "¿Cuántos tengo?",
+      "fin": 138.317
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 138.807,
+      "texto": "No sé, pero eso tampoco tiene sentido.",
+      "fin": 140.237
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 140.407,
+      "texto": "¿Tengo más o tengo menos?",
+      "fin": 141.487
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 141.697,
+      "texto": "No, yo digo que no. No sé.",
+      "fin": 143.087
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 145.747,
+      "texto": "Pero para mí eso también es mentira.",
+      "fin": 146.997
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 147.467,
+      "texto": "La edad.",
+      "fin": 147.857
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 148.167,
+      "texto": "Sí. Pero no, ¿cuántos tengo?",
+      "fin": 149.777
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 150.047,
+      "texto": "No, no tienes 33. No, no tienes 33, tienes 30.",
+      "fin": 152.957
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 153.297,
+      "texto": "Tiene 30. No tiene 30.",
+      "fin": 154.217
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 156.407,
+      "texto": "Yo creo que la carrera.",
+      "fin": 157.657
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 158.427,
+      "texto": "¿La carrera? No.",
+      "fin": 159.987
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 159.987,
+      "texto": "La carrera no.",
+      "fin": 160.367
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 160.527,
+      "texto": "Que. Está por el área de digitales.",
+      "fin": 162.907
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 162.907,
+      "texto": "Y años, tres hijos.",
+      "fin": 163.787
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 163.997,
+      "texto": "información.",
+      "fin": 164.737
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 165.577,
+      "texto": "No, pero no tiene pinta de abogado.",
+      "fin": 166.867
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 167.317,
+      "texto": "No, un abogado no es.",
+      "fin": 168.127
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 169.607,
+      "texto": "Es el que. No, no eres abogado. No, no eres abogado.",
+      "fin": 170.827
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 171.217,
+      "texto": "Tres hijos no. Tres hijos no.",
+      "fin": 171.937
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 172.107,
+      "texto": "33 le crees.",
+      "fin": 172.937
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 173.947,
+      "texto": "Tres hijos, 33 años le creo.",
+      "fin": 175.057
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 175.587,
+      "texto": "Le creo. No, eso no le creo.",
+      "fin": 176.847
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 177.627,
+      "texto": "No es de crisis.",
+      "fin": 178.107
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 178.607,
+      "texto": "¿Cuántos años tienen los hijos?",
+      "fin": 179.917
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 180.207,
+      "texto": "Nombres. Nombres.",
+      "fin": 180.997
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 181.567,
+      "texto": "No, no, no puedo. Es la información que les puedo dar.",
+      "fin": 183.477
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 183.747,
+      "texto": "No tiene tres hijos.",
+      "fin": 184.667
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 185.877,
+      "texto": "Entonces, ¿todo es mentira?",
+      "fin": 186.727
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 186.727,
+      "texto": "Es mentira.",
+      "fin": 187.117
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 187.587,
+      "texto": "Pero 32 años sí.",
+      "fin": 188.757
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 189.377,
+      "texto": "La edad, yo creo que sí.",
+      "fin": 189.927
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 190.157,
+      "texto": "La edad.",
+      "fin": 190.497
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 190.777,
+      "texto": "Sí.",
+      "fin": 190.877
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 191.077,
+      "texto": "Sí. No.",
+      "fin": 191.717
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 192.177,
+      "texto": "Vale, todo es mentira. Muy malos.",
+      "fin": 194.277
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 195.147,
+      "texto": "Sigues tú.",
+      "fin": 195.667
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 196.487,
+      "texto": "No, pues.",
+      "fin": 197.667
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 198.547,
+      "texto": "Tengo 18 años.",
+      "fin": 200.087
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 200.707,
+      "texto": "Eh.",
+      "fin": 202.047
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 202.107,
+      "texto": "No, pero qué. Eh, estoy repitiendo como por segunda vez, octavo semestre.",
+      "fin": 207.977
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 209.617,
+      "texto": "Y.",
+      "fin": 210.517
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 211.597,
+      "texto": "Sí.",
+      "fin": 211.777
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 212.727,
+      "texto": "¿Qué más?",
+      "fin": 213.207
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 215.537,
+      "texto": "Y toco acordeón.",
+      "fin": 216.747
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 218.427,
+      "texto": "Yo digo una, no tienes, no tienes 19, tienes 18.",
+      "fin": 220.847
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 221.367,
+      "texto": "Sí.",
+      "fin": 221.737
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 223.167,
+      "texto": "Esa es la, esa es la mentira.",
+      "fin": 224.227
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 224.977,
+      "texto": "No, es la verdad. Esa es la verdad.",
+      "fin": 226.547
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 227.807,
+      "texto": "Por eso, dijiste que tienes 19.",
+      "fin": 229.287
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 229.627,
+      "texto": "Ah, entonces es la mentira. Esa es la mentira.",
+      "fin": 231.257
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 232.127,
+      "texto": "Y las otras dos.",
+      "fin": 232.967
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 234.347,
+      "texto": "Son verdades.",
+      "fin": 234.697
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 235.077,
+      "texto": "Toca acordeón en serio?",
+      "fin": 235.857
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 236.007,
+      "texto": "Toca acordeón. Pero el chiquito.",
+      "fin": 237.527
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 237.527,
+      "texto": "Ah. Ah, un acordeón chiquito. Pero es verdad.",
+      "fin": 240.247
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 240.677,
+      "texto": "O sea, ¿cómo se dice? Pandolón, ¿cómo se llama eso?",
+      "fin": 245.287
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 245.477,
+      "texto": "No.",
+      "fin": 245.567
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 245.897,
+      "texto": "No, no tienes.",
+      "fin": 246.337
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 246.337,
+      "texto": "Sí, pero esa se llama acordeón sino que es pequeña.",
+      "fin": 249.497
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 250.777,
+      "texto": "Sigues.",
+      "fin": 251.277
+    },
+    {
+      "speaker": "SPEAKER_06",
+      "inicio": 253.307,
+      "texto": "No sé. Pues no. Parezco en el registro civil como fijado.",
+      "fin": 263.297
+    },
+    {
+      "speaker": "SPEAKER_06",
+      "inicio": 264.447,
+      "texto": "Tengo una banda. Tengo 25 años.",
+      "fin": 269.837
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 272.397,
+      "texto": "No tiene 25.",
+      "fin": 273.817
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 275.607,
+      "texto": "No tiene 25 años.",
+      "fin": 276.547
+    },
+    {
+      "speaker": "SPEAKER_06",
+      "inicio": 276.997,
+      "texto": "No.",
+      "fin": 277.537
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 277.537,
+      "texto": "No.",
+      "fin": 277.747
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 277.927,
+      "texto": "Sí. Sí.",
+      "fin": 278.477
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 278.697,
+      "texto": "Yo miro para arriba. Sí, no. No.",
+      "fin": 280.497
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 280.607,
+      "texto": "Sí, el de la banda es mentira, no tiene banda.",
+      "fin": 282.267
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 282.907,
+      "texto": "¿Esa es la mentira?",
+      "fin": 283.747
+    },
+    {
+      "speaker": "SPEAKER_06",
+      "inicio": 283.997,
+      "texto": "Sí.",
+      "fin": 284.287
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 284.997,
+      "texto": "Okay.",
+      "fin": 285.347
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 287.057,
+      "texto": "Eh, tengo 26 años. Eh.",
+      "fin": 290.477
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 292.177,
+      "texto": "Soy de ingeniería de sistemas y estudio animación y arte 3D.",
+      "fin": 295.667
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 296.347,
+      "texto": "Estudias dos carreras al tiempo.",
+      "fin": 297.807
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 298.057,
+      "texto": "Sí.",
+      "fin": 298.247
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 298.507,
+      "texto": "No, pues esa es la mentira.",
+      "fin": 299.857
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 300.737,
+      "texto": "Animación, no. No.",
+      "fin": 301.627
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 301.737,
+      "texto": "¿Dónde estudias animación, bro?",
+      "fin": 303.887
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 304.097,
+      "texto": "Sí.",
+      "fin": 304.307
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 305.027,
+      "texto": "Sí puede ser. No, no. Yo creo que es la edad.",
+      "fin": 308.827
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 309.057,
+      "texto": "La edad.",
+      "fin": 309.817
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 311.397,
+      "texto": "Y eso que se presenta se ve.",
+      "fin": 312.917
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 313.377,
+      "texto": "Sí.",
+      "fin": 313.467
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 313.627,
+      "texto": "Se nota. No, no te escuché. Sí, pero la edad sí. No sé. La edad.",
+      "fin": 316.947
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 317.587,
+      "texto": "O sea, esa es la mentira. No sé. La edad.",
+      "fin": 319.987
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 320.617,
+      "texto": "La edad es la mentira.",
+      "fin": 321.297
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 321.467,
+      "texto": "¿Cuántos tienes en la vida real?",
+      "fin": 322.847
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 323.237,
+      "texto": "24.",
+      "fin": 323.777
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 324.497,
+      "texto": "La edad.",
+      "fin": 324.787
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 325.757,
+      "texto": "Yo creo que es 24.",
+      "fin": 326.657
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 328.027,
+      "texto": "22 años.",
+      "fin": 328.757
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 330.127,
+      "texto": "21.",
+      "fin": 330.777
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 331.437,
+      "texto": "¿En serio?",
+      "fin": 331.967
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 334.397,
+      "texto": "De pronto por la pinta el cabello te ves un poco mayor.",
+      "fin": 337.337
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 338.077,
+      "texto": "No, se ve más viejo que no es.",
+      "fin": 339.757
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 340.097,
+      "texto": "No, más bien se ve más viejo rapado yo sé por qué lo digo.",
+      "fin": 341.877
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 342.137,
+      "texto": "Claro, también.",
+      "fin": 342.617
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 343.377,
+      "texto": "Más. Bueno, la única señorita que nos acompaña por el momento.",
+      "fin": 345.987
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 346.547,
+      "texto": "Eh, hola.",
+      "fin": 347.417
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 348.567,
+      "texto": "Ay, no las pensé. Eh, tengo dos gaticas.",
+      "fin": 353.497
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 354.517,
+      "texto": "Eh, estudio diseño de modas y estoy aprendiendo a tatuar.",
+      "fin": 358.747
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 359.397,
+      "texto": "Diseño gráfico.",
+      "fin": 360.297
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 360.437,
+      "texto": "Diseño gráfico.",
+      "fin": 361.307
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 361.547,
+      "texto": "Una estudia diseño gráfico. No, no. Estudia diseño de modas.",
+      "fin": 363.317
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 363.317,
+      "texto": "Tú estás en comunicación, yo te he visto en clases de diseño.",
+      "fin": 364.577
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 365.17,
+      "texto": "Yo te he visto en clases de diseño.",
+      "fin": 365.657
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 365.657,
+      "texto": "Yo te he visto en clases de diseño.",
+      "fin": 366.197
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 366.427,
+      "texto": "El de los gatos yo creo que sí.",
+      "fin": 367.977
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 368.567,
+      "texto": "Sí, tiene pinta de que tiene dos gatos. Sí.",
+      "fin": 371.167
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 371.977,
+      "texto": "Y cuál era la otra?",
+      "fin": 372.587
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 373.237,
+      "texto": "Tatuar.",
+      "fin": 373.537
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 373.807,
+      "texto": "Y sí, de pronto.",
+      "fin": 374.347
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 375.387,
+      "texto": "Porque los pelos de la camiseta son de colores distintos.",
+      "fin": 377.927
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 378.137,
+      "texto": "Tiene gatos.",
+      "fin": 378.847
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 379.627,
+      "texto": "Ah, lo de los gatos sí, claro.",
+      "fin": 381.087
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 381.187,
+      "texto": "Sí. Sí, tiene la camiset.",
+      "fin": 382.47
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 382.47,
+      "texto": "Claro.",
+      "fin": 382.687
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 384.187,
+      "texto": "Pero no, diseño gráfico.",
+      "fin": 385.127
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 385.127,
+      "texto": "Diseño.",
+      "fin": 385.447
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 385.717,
+      "texto": "Diseño.",
+      "fin": 386.447
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 386.867,
+      "texto": "Diseño gráfico. Eso es mentira. Y también es mentira que se aprende a tatuar.",
+      "fin": 389.847
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 390.497,
+      "texto": "No estás aprendiendo a tatuar.",
+      "fin": 391.737
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 392.217,
+      "texto": "Yo le hago a la gente. Ah, bueno, sí.",
+      "fin": 393.187
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 393.567,
+      "texto": "Okay. Sigue.",
+      "fin": 394.037
+    },
+    {
+      "speaker": "SPEAKER_09",
+      "inicio": 394.387,
+      "texto": "Eh, soy mecánico de motos. No.",
+      "fin": 396.447
+    },
+    {
+      "speaker": "SPEAKER_09",
+      "inicio": 397.097,
+      "texto": "Tengo 17 años y juego.",
+      "fin": 400.087
+    },
+    {
+      "speaker": "SPEAKER_09",
+      "inicio": 402.397,
+      "texto": "Tengo dos perros.",
+      "fin": 403.497
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 403.657,
+      "texto": "Qué, ¿mandas mentiras? Yo no le creo a ninguna de las tres.",
+      "fin": 404.997
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 405.327,
+      "texto": "No le creo la de los perros.",
+      "fin": 406.017
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 406.317,
+      "texto": "Ya no tiene 17 años. No tengo ninguno.",
+      "fin": 408.837
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 408.837,
+      "texto": "No.",
+      "fin": 409.287
+    },
+    {
+      "speaker": "SPEAKER_09",
+      "inicio": 410.237,
+      "texto": "Te juro.",
+      "fin": 410.607
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 411.237,
+      "texto": "¿Pero si eres mecánico de motos? ¿Sí?",
+      "fin": 412.787
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 413.067,
+      "texto": "Sí.",
+      "fin": 413.157
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 413.787,
+      "texto": "Arréglame una.",
+      "fin": 414.507
+    },
+    {
+      "speaker": "SPEAKER_09",
+      "inicio": 415.007,
+      "texto": "Me cae un que vuelva.",
+      "fin": 416.037
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 416.487,
+      "texto": "Ármame una.",
+      "fin": 417.067
+    },
+    {
+      "speaker": "SPEAKER_09",
+      "inicio": 417.727,
+      "texto": "Motos eléctricas.",
+      "fin": 419.507
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 419.867,
+      "texto": "Lo mismo.",
+      "fin": 420.217
+    },
+    {
+      "speaker": "SPEAKER_10",
+      "inicio": 421.906,
+      "texto": "Eh, bueno, mi nombre es Juan Esteban. Tengo 22 años.",
+      "fin": 426.476
+    },
+    {
+      "speaker": "SPEAKER_10",
+      "inicio": 427.706,
+      "texto": "Y me gusta mucho tocar el bajo.",
+      "fin": 430.426
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 431.146,
+      "texto": "No, yo le bajo, sí, no, tienes, esto, esto estaba haciendo con una guitarra.",
+      "fin": 434.666
+    },
+    {
+      "speaker": "SPEAKER_10",
+      "inicio": 435.346,
+      "texto": "No.",
+      "fin": 435.616
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 435.986,
+      "texto": "¿Sí era un bajo?",
+      "fin": 436.566
+    },
+    {
+      "speaker": "SPEAKER_10",
+      "inicio": 437.236,
+      "texto": "No. Siempre he tocado el bajo. Siempre he tocado el bajo.",
+      "fin": 442.846
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 443.686,
+      "texto": "Entonces, ¿cuál es la mentira?",
+      "fin": 444.606
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 444.826,
+      "texto": "Repítelas.",
+      "fin": 445.696
+    },
+    {
+      "speaker": "SPEAKER_10",
+      "inicio": 446.476,
+      "texto": "Te dicen. Mi nombre es Juan Esteban. Tengo 22 años.",
+      "fin": 448.976
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 449.206,
+      "texto": "Su nombre no es Juan Esteban.",
+      "fin": 450.486
+    },
+    {
+      "speaker": "SPEAKER_10",
+      "inicio": 451.046,
+      "texto": "Yo me lo he cambiado. Con ese.",
+      "fin": 453.686
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 454.406,
+      "texto": "¿Sí es, el nombre es la mentira?",
+      "fin": 455.616
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 455.976,
+      "texto": "No tiene 22.",
+      "fin": 456.766
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 457.146,
+      "texto": "Ah, bueno, no, sí le pegó. No, ya si no lo vi por ningún lado.",
+      "fin": 459.736
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 459.906,
+      "texto": "No te gusta el bajo, entonces no.",
+      "fin": 461.276
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 461.646,
+      "texto": "Bueno, muchachos, entonces, lo primero que quiero que me cuenten un poquito desde su experiencia es eh, lo académico. ¿Sí?",
+      "fin": 470.996
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 471.466,
+      "texto": "Cuéntenme cómo ha sido su experiencia académica frente a los docentes. Cuéntenme cómo eh, muy corto para que alcancemos a a participar todos. Si les han gustado los docentes, si no les ha gustado, si no les ha gustado, ¿por qué no les ha gustado? Si les ha gustado, ¿por qué les ha gustado, listo?",
+      "fin": 477.626
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 478.106,
+      "texto": "Normalmente en mi carrera no he tenido ningún problema con ningún docente, todos son docentes bastante competentes. Y ya, bien.",
+      "fin": 482.976
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 483.256,
+      "texto": "¿Tú estás presencial?",
+      "fin": 484.096
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 484.226,
+      "texto": "Sí.",
+      "fin": 484.346
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 485.126,
+      "texto": "¿Tú estás presencial también? ¿Todos están, perdón? ¿Todos están presencial?",
+      "fin": 487.976
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 488.296,
+      "texto": "Sí.",
+      "fin": 488.466
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 488.946,
+      "texto": "Sí.",
+      "fin": 489.176
+    },
+    {
+      "speaker": "SPEAKER_05",
+      "inicio": 489.436,
+      "texto": "Sí.",
+      "fin": 489.676
+    },
+    {
+      "speaker": "SPEAKER_06",
+      "inicio": 490.356,
+      "texto": "Desde mi parte no, tampoco he tenido ningún problema, todo ha sido más breve. No sé si es porque estoy en segundo semestre todavía, pero ha sido más breve.",
+      "fin": 497.106
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 498.276,
+      "texto": "Listo.",
+      "fin": 498.546
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 499.556,
+      "texto": "Por ahí he tenido eh, una mala experiencia con una docente, pero el resto todo bien.",
+      "fin": 505.776
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 506.016,
+      "texto": "¿Y qué pasó con esa docente?",
+      "fin": 507.266
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 508.306,
+      "texto": "Su método de enseñanza es un poquito extraño.",
+      "fin": 511.416
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 512.446,
+      "texto": "Entonces, básicamente pues en mi caso de ingeniería de sistemas se ponía a programar por allá, por el primer semestre y nosotros no entendíamos absolutamente nada. Y ya, nos tocó de a varias con la veces.",
+      "fin": 523.956
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 526.416,
+      "texto": "Y y no entendíamos nada.",
+      "fin": 528.276
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 529.076,
+      "texto": "O sea, no entendían nada. O sea, ella se ponía a echar código sola y no explicaba.",
+      "fin": 534.696
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 535.036,
+      "texto": "Básicamente. O bueno, explicaba, pero pero a su ritmo.",
+      "fin": 539.126
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 540.356,
+      "texto": "Nosotros digamos que nosotros tampoco teníamos. Te va a pedir que con ese celular, ahí que el suyo se va a dejar. Nosotros básicamente no teníamos como ese nivel de escritura, por decirlo así.",
+      "fin": 549.336
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 550.286,
+      "texto": "Entonces se empezaba a decir como esto sirve para esto y y bla bla bla bla bla y empezaba a escribir, escribir y pues quedamos reperdidos. Y ya, la última evaluación.",
+      "fin": 559.106
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 559.446,
+      "texto": "Okay.",
+      "fin": 559.786
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 560.036,
+      "texto": "Entonces era eso.",
+      "fin": 560.706
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 561.416,
+      "texto": "Sí, yo creo que se parecen mucho con los dos cursos. O sea, el curso de psicología, pero que lo subí un poquito de sistemas. Y en sistemas es muy común eso, se ponen a echar código y tienen que ser muy expertos.",
+      "fin": 573.0
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 573.746,
+      "texto": "Es eso es lo único, de resto todo.",
+      "fin": 575.756
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 576.716,
+      "texto": "Okay. En tu caso y corriendo.",
+      "fin": 578.856
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 579.546,
+      "texto": "Eh, pues solo he tenido como dos temas con dos profesores. Eh, pues eh una profesora no fue mía, pero sí fue de una compañera. Eh, era una profesora como con la que no se podía hablar. Usualmente cuando uno no entrega trabajos es como, bueno, te lo recibo solo otra nota diferente o mándame una excusa. Eh, mi compañera pues le costaba entregar trabajos a tiempo, con esa profesora no se podía negociar, no se podía decir, oye, me lo recibes o te hago trabajo, no sé.",
+      "fin": 599.196
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 599.506,
+      "texto": "Eh, pues sé que iba cuál es la personalidad de para la persona, para la responsabilidad de cada uno, pero pues igual, o sea, es como importante saber tener el diálogo con el estudiante y tuvimos un tema de esa profesora daba fotografía. Entonces, hicimos exactamente como estábamos en el proyecto final juntas, hicimos exactamente las mismas fotos. Yo con mi profe me saqué cinco, ella con esa profe se sacó 3.8 en las mismas fotos. Entonces, pues no sé si había un tema ya personal con la profe o solamente pues era la manera de calificar de la profe porque pues también habían otros temas de quejas de notas con esa misma profe con otros estudiantes. No sé porque no vi la clase con ella, pero sí me contaron, entonces pues sí. Ese es el tema.",
+      "fin": 620.916
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 621.846,
+      "texto": "Listo.",
+      "fin": 622.096
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 624.496,
+      "texto": "Eh, solo con un profesor la verdad. Bueno, con otro, pero fue como más que el tema de cómo exigencia, pero igual ya uno se acopla, uno se uno se acopla. El otro ya, el profesor fue que es ingeniero, pero licenciado en para dictar clases no. Esas vainas no.",
+      "fin": 643.596
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 643.596,
+      "texto": "No sabe dictar clases. Por ende, no sabe. Sí, pues profundizando, yo estudié con él la misma carrera. Ya nos entramos juntos. La misma carrera. Electrónica. Electrónica.",
+      "fin": 654.516
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 654.736,
+      "texto": "Electrónica. Sí, pues el nivel de exigencia sí he escuchado un par de quejas, pero hasta el momento a mí no me ha parecido tampoco tan fuera de lugar. Es que de por sí es una carrera exigente, requiere muchos muchas aptitudes, digo yo, mucha autonomía también por parte de los alumnos. Pero entonces sí, con este profe hemos tenido un problema y es que",
+      "fin": 673.746
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 676.866,
+      "texto": "eh, las clases que él dictaba eran unos temas un poco más delicados, pues nosotros manejamos corrientes, todo eso. Y la clase de él, aparte de que no era dinámica, no lograba como mantener el interés de los alumnos, como que de pronto no profundizó mucho en en varios temas y ya cuando pasábamos al laboratorio, eh, sí, eh, pudo haber algún riesgo, algún accidente. No, no notaba mucho el interés del profe con con los alumnos. Su interés de verdad, lo que están haciendo, o cómo, cómo se está llevando a cabo el laboratorio, la clase.",
+      "fin": 710.226
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 710.606,
+      "texto": "Bueno, pero entonces podemos decir que en términos generales son casos particulares con un profesor. Pero en términos generales, bien.",
+      "fin": 716.486
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "inicio": 716.486,
+      "texto": "Sí, es cierto.",
+      "fin": 716.916
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 717.306,
+      "texto": "Listo. La siguiente pregunta que les quiero hacer es que me cuenten un poco de los componentes tecnológicos. Plataformas, acceso a plataformas, todo lo que tiene que ver con plataformas. Cuénteme su experiencia general qué me pueden decir.",
+      "fin": 728.326
+    },
+    {
+      "speaker": "SPEAKER_09",
+      "inicio": 729.076,
+      "texto": "Digamos de las plataformas de la CUN. Eh.",
+      "fin": 732.266
+    },
+    {
+      "speaker": "SPEAKER_09",
+      "inicio": 733.456,
+      "texto": "Es que es un tema complicado. Bueno, en mi caso, ¿no? Porque he tenido que no, nunca he tenido problemas con el tema de la universidad y las plataformas, pero sí no sé, he tenido problemas que digamos uno paga y uno envía cam ticket y que se cae el típico cam ticket. Nunca responde. O sea, literalmente, a mí nunca me han respondido un cam ticket, entonces es como perder la el tiempo y ahí también uno va a la CEDA, no, no tenemos solución para eso. Entonces, ¿qué hago? No, no un cam ticket. Es comunicación.",
+      "fin": 761.346
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 761.646,
+      "texto": "Las administrativas. Son los administrativo. Sí.",
+      "fin": 763.556
+    },
+    {
+      "speaker": "SPEAKER_09",
+      "inicio": 763.556,
+      "texto": "Solo es lo administrativo, el resto normal.",
+      "fin": 765.466
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 765.656,
+      "texto": "Yo digo que el tema de plataformas, como por ejemplo la aplicación de CUN 360 o la página web de de la CUN, eh, lo que no me ha gustado es que como que han habido varios cambios y es como que agregan una función nueva, chévere, interesante y a la semana cambiaron por completo otra vez la aplicación y ya y uno queda, uno queda perdido. Y de pronto más medios de información porque muchas veces algunas fechas o algunas informaciones no llegan ni siquiera al correo, sino que entonces es complicado más ese tema.",
+      "fin": 788.666
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 789.706,
+      "texto": "Listo.",
+      "fin": 789.926
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 790.626,
+      "texto": "Los tickets en general. O sea, los tickets no funcionan, a menos de que todo el salón se ponga de acuerdo y los mandemos de manera masiva, no le paran bolas a los tickets, no le paran bolas a los tickets. Entonces, sí es luego ir hasta la sede y hablar del tema y lo que dice, a veces no tienen solución. Entonces, es perder el tiempo porque te dicen, no, en tres días te contestamos el ticket y nunca lo contestan. O lo contestan con un, no, no podemos solucionar. Ve presenciales, que perderá el tiempo.",
+      "fin": 806.496
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 807.566,
+      "texto": "Bueno.",
+      "fin": 807.826
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 808.856,
+      "texto": "Pero en términos de de plataformas como tal, el Moodle, las plataformas bien, lo que no funcionan son los cam tickets.",
+      "fin": 815.116
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 815.656,
+      "texto": "Sí.",
+      "fin": 816.036
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 818.426,
+      "texto": "Eh, bueno, ampliemos un poquito el tema de servicio, que veo que es como ahí donde la cosa como que no anda bien.",
+      "fin": 826.976
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 828.176,
+      "texto": "¿Qué me pueden contar?",
+      "fin": 828.986
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 829.746,
+      "texto": "Eh, hay asesores que no asesoran porque muchas veces hay, hay tengo muchos compañeros que me dicen, oye, tienes un número de de un asesor que sí tenga ganas de trabajar, porque es como que no contestan, te remiten a otro lado. O o te, sí, o sea, te te remiten a otro lado o te dejan en espera y luego de un buen rato en espera te cuelgan. Entonces, no hacen nada.",
+      "fin": 850.516
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 851.346,
+      "texto": "¿En serio?",
+      "fin": 851.696
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 852.126,
+      "texto": "¿En serio? Me sorprende que te sorprendas. Es muy común.",
+      "fin": 856.276
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 856.596,
+      "texto": "A unos que bloquean también.",
+      "fin": 857.916
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 858.336,
+      "texto": "Sí.",
+      "fin": 858.466
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 858.826,
+      "texto": "¿Sí? No tengo lo que me toca.",
+      "fin": 860.276
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 860.596,
+      "texto": "A mí en la sede que me tocó no, pero sí he escuchado casos. Y lo de los asesores. Sí.",
+      "fin": 863.636
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 864.556,
+      "texto": "Como una chica que quería ingresar también al programa de ingeniería electrónica ahorita y dijo que la asesora la bloqueó y no pudo volver.",
+      "fin": 869.966
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 870.786,
+      "texto": "La asesora la bloqueó.",
+      "fin": 871.916
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 873.346,
+      "texto": "Dijo que ni que fuera la ex.",
+      "fin": 874.626
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 875.266,
+      "texto": "Pero sí, a veces toca como, sí, si alguien, si un asesor de verdad te contesta, te toca pedirle el nombre para que si ahí te vuelven a contestar, oye, mándame con tal. Qué tal ya tiene mi proceso. Por porque si no tienes el nombre, de verdad te dejan esperando y te cuelgan o es una pérdida de tiempo.",
+      "fin": 889.386
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 892.426,
+      "texto": "¿Por qué es chévere estudiar en la CUN? Cada uno déme una frase.",
+      "fin": 895.106
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 897.456,
+      "texto": "No espero menos de ti.",
+      "fin": 898.376
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 899.236,
+      "texto": "Arrancamos por acá.",
+      "fin": 900.276
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 903.116,
+      "texto": "Yo diría que los espacios, la verdad, me han gustado los espacios que que tiene la universidad, por ejemplo, en este momento esta terraza, de pronto el espacio de de la CD A también me ha parecido chévere o incluso el de la sede. Eso es lo que me ha gustado.",
+      "fin": 916.636
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 920.086,
+      "texto": "Pues a mí en lo personal, en lo personal y en mi carrera me han gustado resto, resto, resto, los profes. Los profes son muy chimbas, o sea, nos sacan harto, nos, son bien creativos, les, o sea, no sé, siento que uno de verdad genera una conexión con ellos. Ellos se preocupan bastante con el aprendizaje, bueno, hay casos y casos, ¿no? Pero ellos se preocupan harto por nuestro proceso, o sea, si están bien pendientes. También lo que menciona mi compañero, me gustan los espacios, eh me gusta, sí, como como eso de de, ay, que hay música, que hay tunda, que hay danzas, que hay teatro. Me gustaría que lo promocionaran más por ese lado porque es es bastante aprovechable.",
+      "fin": 955.576
+    },
+    {
+      "speaker": "SPEAKER_09",
+      "inicio": 957.346,
+      "texto": "Solo puedo decir los espacios también.",
+      "fin": 959.046
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 959.626,
+      "texto": "También los espacios. Espacios, profesores y las actividades culturales. Música, teatro, danza. Son muy muy chéveres.",
+      "fin": 967.656
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 968.326,
+      "texto": "Ahora, por qué no es tan chévere estudiar en la CUN.",
+      "fin": 970.676
+    },
+    {
+      "speaker": "SPEAKER_09",
+      "inicio": 973.236,
+      "texto": "Pues a mí sinceramente por lo de lo del asesoramiento. Es una mamadera, la verdad, es perder tiempo.",
+      "fin": 979.0
+    },
+    {
+      "speaker": "SPEAKER_09",
+      "inicio": 980.126,
+      "texto": "Entonces uno habla y dígame, yo me he puesto bravo, o sea, deme una solución, o sea, yo sé que usted es bravo, pero, a lo bien, deme una solución, si no no chimbé en la vida, yo les digo eso, no me chimbé en la vida. Y ya.",
+      "fin": 989.946
+    },
+    {
+      "speaker": "SPEAKER_09",
+      "inicio": 991.246,
+      "texto": "De resto, ah, bueno, los profesores y todo eso chévere, pero ya.",
+      "fin": 993.446
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 994.676,
+      "texto": "Eh, la verdad, siento que en general, todos los los los mayores problemas que he tenido aquí en la universidad se resumen es en comunicación. De pronto por algunas fechas que no nos comunican bien, que a veces no llega el correo, alguna información que era importante y se comunicó demasiado tarde. Eh, el tema de los talleres y todo eso también que que se comunique, todo eso. Y el tema de comunicación con los asesores. Los cam tickets, yo creo que todos estamos de acuerdo que no han sido una una buena experiencia. No es efectivo. No, no, no, no ha sido efectivo. Y presencialmente, yo sé que ellos, también entiendo los asesores que están presencialmente en la CD, ellos tampoco tienen todas las herramientas para todos los problemas que uno puede tener. Por eso es que los suelen remitir a uno a cam ticket. Entonces, es más complicado. Y muchas veces, varias áreas que uno necesita, por ejemplo, yo he necesitado comunicarme con el área de capital social presencialmente, en la CUN, y resulta que no tienen una área presencial o la parte de prácticas tampoco tienen un como una parte presencial para uno poder comunicarse con ellos presencialmente.",
+      "fin": 1131.786
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1132.996,
+      "texto": "¿Alguien más que quiera aportarle algo?",
+      "fin": 1134.726
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 1135.256,
+      "texto": "Eh, siento que a veces con los directivos es muy difícil sentirse escuchado porque uno tiene, porque hasta los profes me lo han manifestado a mi, a mi curso, que nos han dicho, no, chicos, no podemos hacer tal salida porque no me dieron respuesta. No, chicos, no podemos usar tal equipo porque no me dieron el permiso. Eh, no, chicos, no podemos hacer esto, esto y esto porque ya arriba no nos dejan. Entonces, a veces, por lo menos en mi carrera, muchas veces los profes nos han dicho que se han sentido tal vez limitados y nosotros mismos también vamos a dar una queja y es como, mande el ticket, hable luego y nunca como que nunca solucionan. No es hasta que, bueno, tuvimos un tema con un proyecto final que con una compañera nos pusimos a reunir firmas con todos los de la carrera para que cambien ese proyecto y no es hasta que nos, no nos sentamos a reunir como 200 firmas, hasta que no nos dio, o sea, ni con ticket, ni con ticket masivo, o sea, no fue hasta que nos sentamos a reunir firmas y con un profe de nuestro lado que ya nos escucharon, entonces, hay que armar una revolución para que esta universidad le pare bolas a uno.",
+      "fin": 1224.966
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1226.066,
+      "texto": "Okay.",
+      "fin": 1226.476
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1228.406,
+      "texto": "Bueno, muchachos, creo que solamente me queda preguntarles por eh, cuando llegaron. Se, o sea, acuérdense cuando ustedes la el primer momento que tuvieron que ingresaron a la CUN. Por qué fue bueno, por qué fue malo.",
+      "fin": 1244.756
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 1245.546,
+      "texto": "En parte yo llegué por articulación, o sea que el primer semestre que tuve lo tuve en quinto semestre. Lo tuve en como en el 2024, 2023. Y personalmente pues fue bien, sí fue como el el sentirse como a dejar los grupos que ya están formados porque yo sí vienen de un proceso desde primer semestre y yo llego como ahí en medio del semestre sin sin conocer pues a nadie, pero pues en general la experiencia bien.",
+      "fin": 1269.966
+    },
+    {
+      "speaker": "SPEAKER_07",
+      "inicio": 1272.066,
+      "texto": "Debo retirarme. Muchas gracias por la entrevista.",
+      "fin": 1275.0
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1275.296,
+      "texto": "Dale, ya nos vemos.",
+      "fin": 1276.086
+    },
+    {
+      "speaker": "SPEAKER_06",
+      "inicio": 1277.966,
+      "texto": "Por lo general, no, yo no tuve nada. Normal.",
+      "fin": 1281.336
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 1282.806,
+      "texto": "Pues a mí me gustó la sede, la principal, la FHP. Cuando yo llegué yo dije, qué bonito, porque está como bonita, la cancha. En ese momento no tenía toldo, pero igual estaba bonita. El espacio para para hablar y eso. Me gusta mucho luego cuando llegué, ver tantos emprendimientos y que hay espacios de la misma universidad para los emprendimientos, eso la primera se me hizo, cosas de modas, cosas de diseño, o sea, se me hizo bacano.",
+      "fin": 1302.26
+    },
+    {
+      "speaker": "SPEAKER_09",
+      "inicio": 1303.496,
+      "texto": "Digamos yo cuando entré en el primer semestre, eh, pues era muy nuevo, digamos, era muy, uno siempre como cuando uno entra es muy tímido y uno queda, los amigos, que no sé qué. Pero de resto super bien, o sea, la verdad, las sedes, o sea, las sedes, antes no existía la terraza, que solo estaba música y y danza. Em, la, o sea, muy chévere el tema de las sedes y todo eso y el primer semestre fue una experiencia, la verdad, muy chévere, la verdad.",
+      "fin": 1319.46
+    },
+    {
+      "speaker": "SPEAKER_03",
+      "inicio": 1320.176,
+      "texto": "Sí, también en primer semestre. En primer semestre estas actividades culturales también lo ayudan a uno a socializar más cuando uno entra entra nuevo, pues es tímido. Y también la primera buena impresión que tuve en la universidad fueron los espacios. O sea, para qué si han sido muy muy cómodos.",
+      "fin": 1333.726
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1334.426,
+      "texto": "Bueno, muchachos, les voy a pedir aquí que me regalen eh, pues la vista del QR y a sus correos les haré llegar eh.",
+      "fin": 1344.0
+    },
+    {
+      "speaker": "SPEAKER_04",
+      "inicio": 1344.296,
+      "texto": "Ah, es que es por eso.",
+      "fin": 1344.806
+    },
+    {
+      "speaker": "SPEAKER_08",
+      "inicio": 1344.806,
+      "texto": "Yo también los voy a seguir.",
+      "fin": 1345.926
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "inicio": 1346.226,
+      "texto": "No, pues vamos adentro igual. Yo quiero quedarme a clase.",
+      "fin": 1348.816
+    }
+  ]
+}

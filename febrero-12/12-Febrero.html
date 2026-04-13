@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz de Auditoría de Escucha Activa CUN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="brand">CUN ANALYTICS</div>
+        <nav class="nav-menu">
+            <button class="nav-btn active" onclick="openTab(event, 'inicio')">Resumen Ejecutivo</button>
+            <div class="sidebar-label">Dimensiones</div>
+            <button class="nav-btn" onclick="openTab(event, 'academico')">ACADÉMICO</button>
+            <button class="nav-btn" onclick="openTab(event, 'tecnologico')">TECNOLÓGICO</button>
+            <button class="nav-btn" onclick="openTab(event, 'servicio')">SERVICIO AL CLIENTE</button>
+            <button class="nav-btn" onclick="openTab(event, 'pertenencia')">SENTIDO DE PERTENENCIA</button>
+              <button class="nav-btn" onclick="window.location.href='index.html'">Regresar</button>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        
+        <section id="inicio" class="tab-pane active">
+            <h1 class="main-title">Diagnóstico Estratégico de Auditoría (Marzo 2026)</h1>
+            <div class="item-container">
+                <p>Este reporte consolida los hallazgos de los <strong>Grupos Focales del 11 y 12 de marzo</strong>. Se evidencia una crisis de confianza en los procesos de reintegro y una desconexión crítica entre el área administrativa y el registro de créditos en el sistema.</p>
+            </div>
+        </section>
+
+        <section id="academico" class="tab-pane">
+            <h1 class="main-title">ACADÉMICO (Innovación y Currículo)</h1>
+            
+            <div class="sub-title">Carga Académica y Reintegros</div>
+            <div class="item-container">
+                <div class="item-header">1. Métricas de Sentimiento</div>
+                <table><tr><th>Polaridad</th><td><span class="badge badge-critico">Desesperanza (-0.92)</span></td><th>Subjetividad</th><td>Extrema (Casos de llanto por mallas)</td></tr></table>
+                <div class="item-header">2. Métricas de Gestión</div>
+                <table><tr><th>Score Técnico</th><td>1.5 / 10</td><th>Eficacia</th><td>Nula</td></tr></table>
+                <div class="item-header">3. Intensidad y Esfuerzo (CES)</div>
+                <p><strong>Insoportable.</strong> El estudiante asume un costo emocional y financiero por errores de información. El proceso de reintegro se percibe como una "trampa" donde el progreso previo desaparece.</p>
+                <div class="item-header">4. Análisis e Insights</div>
+                <div class="insight-box">
+                    <strong>Falla de Retroalimentación:</strong> Los estudiantes que intentan volver se encuentran con que el sistema les "debe" semestres que ya habían cursado o les quitan créditos por matricular prácticas tarde. El dolor no es solo por la plata, es por el tiempo perdido.
+                </div>
+                <div class="item-header">5. Evidencia Directa (Verbatims)</div>
+                <div class="verbatim">"Cuando me dan la noticia que me faltaban como cuatro semestres, yo lloraba... yo decía: no recomiendo a esta universidad por eso."</div>
+            </div>
+
+            <div class="sub-title" style="margin-top:40px;">Metodología de Aprendizaje</div>
+            <div class="item-container">
+                <div class="item-header">1. Métricas de Sentimiento</div>
+                <table><tr><th>Polaridad</th><td><span class="badge badge-pos">Gratitud (+0.70)</span></td><th>Subjetividad</th><td>Alta</td></tr></table>
+                <div class="item-header">2. Métricas de Gestión</div>
+                <table><tr><th>Score Técnico</th><td>7.5 / 10</td><th>Eficacia</th><td>Buena</td></tr></table>
+                <div class="item-header">3. Intensidad y Esfuerzo (CES)</div>
+                <p><strong>Bajo.</strong> El paso de presencial a virtual es valorado positivamente una vez se supera la barrera técnica inicial.</p>
+                <div class="item-header">4. Análisis e Insights</div>
+                <div class="insight-box">La virtualidad se percibe como una salvación para quienes no pueden cumplir horarios, pero la falta de inducción técnica robusta genera miedo al inicio del proceso.</div>
+                <div class="item-header">5. Evidencia Directa (Verbatims)</div>
+                <div class="verbatim">"Prácticamente virtual siento que me ha ido mejor porque yo estaba presencial... estoy muy contenta porque ya estoy en lo último."</div>
+            </div>
+        </section>
+
+        <section id="tecnologico" class="tab-pane">
+            <h1 class="main-title">TECNOLÓGICO</h1>
+            
+            <div class="sub-title">SINU y Registro de Créditos</div>
+            <div class="item-container">
+                <div class="item-header">1. Métricas de Sentimiento</div>
+                <table><tr><th>Polaridad</th><td><span class="badge badge-critico">Ira (-0.85)</span></td><th>Subjetividad</th><td>Media</td></tr></table>
+                <div class="item-header">2. Métricas de Gestión</div>
+                <table><tr><th>Score Técnico</th><td>3.0 / 10</td><th>Eficacia</th><td>Deficiente</td></tr></table>
+                <div class="item-header">3. Intensidad y Esfuerzo (CES)</div>
+                <p><strong>Muy Alto.</strong> El sistema castiga administrativamente al estudiante. El error de "quitar créditos" por fechas de matrícula de prácticas es una falla lógica grave del SINU.</p>
+                <div class="item-header">4. Análisis e Insights</div>
+                <div class="insight-box">El ecosistema tecnológico no está integrado. La información que maneja el asesor administrativo no coincide con lo que el SINU refleja, creando un limbo que el estudiante debe resolver por su cuenta.</div>
+                <div class="item-header">5. Evidencia Directa (Verbatims)</div>
+                <div class="verbatim">"Como yo matriculé las prácticas técnicas tarde, eso me fue quitando crédito... me quedé en 2019."</div>
+            </div>
+        </section>
+
+        <section id="servicio" class="tab-pane">
+            <h1 class="main-title">SERVICIO AL CLIENTE (Gestión Administrativa)</h1>
+            <div class="sub-title">Resolución y Tickets</div>
+            <div class="item-container">
+                <div class="item-header">1. Métricas de Sentimiento</div>
+                <table><tr><th>Polaridad</th><td><span class="badge badge-critico">Frustración (-0.90)</span></td><th>Subjetividad</th><td>Alta</td></tr></table>
+                <div class="item-header">2. Métricas de Gestión</div>
+                <table><tr><th>Score Técnico</th><td>2.0 / 10</td><th>Eficacia</th><td>Pobre</td></tr></table>
+                <div class="item-header">3. Intensidad y Esfuerzo (CES)</div>
+                <p><strong>Extremo.</strong> Los estudiantes sienten que nadie se hace responsable de las promesas verbales cuando el sistema muestra algo distinto.</p>
+                <div class="item-header">4. Análisis e Insights</div>
+                <div class="insight-box"><strong>Desconexión Humano-Sistema:</strong> Se reporta que incluso hablando con administración, el sistema no se actualiza (casos de agosto sin registro en marzo). El estudiante queda indefenso ante la "dictadura del sistema".</div>
+                <div class="item-header">5. Evidencia Directa (Verbatims)</div>
+                <div class="verbatim">"No había nada en sistema... me quedé sin estudio a pesar de haber hablado con administración."</div>
+            </div>
+        </section>
+
+        <section id="pertenencia" class="tab-pane">
+            <h1 class="main-title">SENTIDO DE PERTENENCIA</h1>
+            <div class="sub-title">Identidad, Valor Institucional y Bienestar</div>
+            <div class="item-container">
+                <div class="item-header">1. Métricas de Sentimiento</div>
+                <table>
+                    <tr>
+                        <th>Polaridad</th>
+                        <td><span class="badge badge-pos">Gratitud / Conexión (+0.88)</span></td>
+                        <th>Subjetividad</th>
+                        <td>Muy Alta (Vínculo emocional)</td>
+                    </tr>
+                </table>
+
+                <div class="item-header">2. Métricas de Gestión</div>
+                <table>
+                    <tr>
+                        <th>Score Técnico</th>
+                        <td>4.0 / 10</td>
+                        <th>Eficacia</th>
+                        <td>Baja (Falla en comunicación de beneficios)</td>
+                    </tr>
+                </table>
+
+                <div class="item-header">3. Intensidad y Esfuerzo (CES)</div>
+                <p><strong>Medio-Alto.</strong> El estudiante tiene un fuerte deseo de pertenecer y terminar su proceso, pero debe realizar un esfuerzo extra para descubrir los servicios de apoyo, ya que la universidad no los comunica de forma efectiva.</p>
+
+                <div class="item-header">4. Análisis e Insights</div>
+                <div class="insight-box">
+                    <strong>La CUN como Proyecto de Vida:</strong> Para los estudiantes de marzo, la CUN trasciende lo académico; es "el medio para cumplir un sueño". Existe un sentimiento de agradecimiento profundo hacia la institución por la flexibilidad (especialmente en la modalidad virtual) que les permite retomar sus metas.
+                    <br><br>
+                    <strong>Desconexión con Bienestar:</strong> Se identificó un desconocimiento total de beneficios clave, como la <strong>orientación emocional telefónica</strong>. Una vez que los estudiantes se enteran del servicio en el grupo focal, su percepción de valor aumenta, pero critican que la información no les llegue proactivamente. "Es un espacio muy ganador", afirman, lamentando no haberlo usado antes.
+                </div>
+
+                <div class="item-header">5. Evidencia Directa (Verbatims)</div>
+                <div class="verbatim">
+                    "Agradezco a Dios por la universidad porque, bueno, son muchos conocimientos... estoy muy contenta porque gracias a Dios ya estoy en lo último."
+                </div>
+                <div class="verbatim">
+                    "¿Ustedes sabían que tienen acceso a un servicio de orientación emocional telefónico? (...) Gracias, de verdad el espacio es muy ganador."
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        function openTab(evt, tabId) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-pane");
+            for (i = 0; i < tabcontent.length; i++) { tabcontent[i].classList.remove("active"); }
+            tablinks = document.getElementsByClassName("nav-btn");
+            for (i = 0; i < tablinks.length; i++) { tablinks[i].classList.remove("active"); }
+            document.getElementById(tabId).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+    </script>
+</body>
+</html>

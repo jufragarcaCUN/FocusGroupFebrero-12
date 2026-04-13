@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Auditoría de Escucha Activa CUN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        /* Agregué estilos rápidos para que los badges y tablas se vean pro como pediste */
+        :root { --cun-green: #00db7b; --cun-green-dark: #00a85d; --cun-gray-dark: #2d3748; }
+        body { font-family: 'Montserrat', sans-serif; background-color: #f7fafc; margin: 0; display: flex; }
+        .sidebar { width: 260px; background: #1a202c; color: white; height: 100vh; position: fixed; padding: 20px; }
+        .brand { font-weight: 900; font-size: 1.5rem; margin-bottom: 2rem; color: var(--cun-green); }
+        .nav-btn { width: 100%; padding: 12px; margin-bottom: 8px; background: none; border: none; color: #a0aec0; text-align: left; cursor: pointer; font-family: 'Montserrat'; transition: 0.3s; border-radius: 8px; }
+        .nav-btn.active, .nav-btn:hover { background: var(--cun-green); color: #1a202c; font-weight: 700; }
+        .main-content { margin-left: 300px; padding: 40px; width: calc(100% - 340px); }
+        .tab-pane { display: none; animation: fadeIn 0.5s; }
+        .tab-pane.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        .main-title { font-weight: 900; color: var(--cun-gray-dark); border-bottom: 4px solid var(--cun-green); display: inline-block; margin-bottom: 2rem; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        th { background: #edf2f7; padding: 15px; text-align: left; font-size: 0.8rem; text-transform: uppercase; color: #4a5568; }
+        td { padding: 15px; border-bottom: 1px solid #edf2f7; color: #2d3748; }
+        .badge { padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; }
+        .badge-alta, .badge-critico { background: #fed7d7; color: #822727; }
+        .badge-med { background: #feebc8; color: #744210; }
+        .badge-pos { background: #c6f6d5; color: #22543d; }
+        .quote-mark { font-size: 3rem; color: var(--cun-green); font-family: serif; line-height: 0; vertical-align: -15px; }
+        .num { font-weight: 900; color: var(--cun-green); font-size: 1.2rem; width: 40px; }
+    </style>
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="brand">CUN ANALYTICS</div>
+        <nav class="nav-menu">
+            <button class="nav-btn active" onclick="openTab(event, 'inicio')">Resumen Ejecutivo</button>
+            <div style="color: #4a5568; font-size: 0.7rem; font-weight: 900; margin: 20px 0 10px 10px; text-transform: uppercase;">Dimensiones Críticas</div>
+            <button class="nav-btn" onclick="openTab(event, 'academico')">Académico</button>
+            <button class="nav-btn" onclick="openTab(event, 'carga')">Carga Académica</button>
+            <button class="nav-btn" onclick="openTab(event, 'tecnologico')">Tecnológico (SINU)</button>
+            <button class="nav-btn" onclick="openTab(event, 'lms')">LMS (CunDigital)</button>
+            <button class="nav-btn" onclick="openTab(event, 'servicio')">Servicio al Cliente</button>
+            <button class="nav-btn" onclick="openTab(event, 'pertenencia')">Sentido de Pertenencia</button>
+            <button class="nav-btn" onclick="openTab(event, 'docencia')">Docencia</button>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        
+        <section id="inicio" class="tab-pane active">
+            <h1 class="main-title">Resumen Ejecutivo: Auditoría de Escucha Activa</h1>
+            <div class="welcome-card" style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); margin-bottom: 2rem;">
+                <h2 style="color: var(--cun-green-dark); font-weight: 800; margin-bottom: 1rem;">Especificaciones del Estudio</h2>
+                <p style="line-height: 1.6; color: #475569;">Minería de datos cualitativos obtenida en los <strong>Grupos Focales 3, 4 y 5</strong>. Se aplicaron algoritmos de Procesamiento de Lenguaje Natural (NLP) para transformar la voz del estudiante en métricas accionables.</p>
+                <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 1.5rem;">
+                    <li style="background: #f8fafc; padding: 10px; border-left: 5px solid var(--cun-green);"><strong>Muestra:</strong> 22 Estudiantes Activos</li>
+                    <li style="background: #f8fafc; padding: 10px; border-left: 5px solid var(--cun-green);"><strong>Periodo:</strong> Febrero 2026</li>
+                </ul>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px;">
+                <div style="background: white; padding: 1rem; border-radius: 10px; border-top: 4px solid var(--cun-green);">
+                    <strong style="font-size: 0.8rem;">SENTIMIENTO</strong>
+                    <p style="font-size: 0.75rem;">Polaridad (-1 a +1) y Subjetividad emocional.</p>
+                </div>
+                <div style="background: white; padding: 1rem; border-radius: 10px; border-top: 4px solid var(--cun-green);">
+                    <strong style="font-size: 0.8rem;">INSIGHTS</strong>
+                    <p style="font-size: 0.75rem;">Interpretación estratégica del "por qué".</p>
+                </div>
+                <div style="background: white; padding: 1rem; border-radius: 10px; border-top: 4px solid var(--cun-green);">
+                    <strong style="font-size: 0.8rem;">VERBATIMS</strong>
+                    <p style="font-size: 0.75rem;">Citas textuales que humanizan el dato.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="academico" class="tab-pane">
+            <h1 class="main-title">Dimensión: Académico</h1>
+            <table class="table-sentiment">
+                <thead><tr><th>Métrica</th><th>Score</th><th>Intensidad</th><th>Impacto</th></tr></thead>
+                <tbody>
+                    <tr><td>Polaridad</td><td>+0.22</td><td><span class="badge badge-med">Neutro</span></td><td>Bajo</td></tr>
+                    <tr><td>Subjetividad</td><td>0.74</td><td><span class="badge badge-alta">Alta</span></td><td>Crítico</td></tr>
+                </tbody>
+            </table>
+            <table class="table-analysis">
+                <thead><tr><th colspan="2">Análisis de Fondo e Insights Estratégicos</th></tr></thead>
+                <tbody>
+                    <tr><td class="num">01</td><td><strong>Obsolescencia Técnica:</strong> Existe un castigo severo del estudiante hacia programas de software desactualizados. La lealtad académica depende de la "empleabilidad" de lo enseñado.</td></tr>
+                    <tr><td class="num">02</td><td><strong>Brecha de Innovación:</strong> El marketing institucional promete modernidad, pero el aula a veces entrega contenidos de hace 5 años, rompiendo la confianza.</td></tr>
+                </tbody>
+            </table>
+            <table class="table-verbatim">
+                <thead><tr><th colspan="2">Voz del Estudiante</th></tr></thead>
+                <tbody><tr><td class="quote-mark">“</td><td>"Nos hablan de innovación pero los programas están desactualizados frente a lo que pide el mercado."</td></tr></tbody>
+            </table>
+        </section>
+
+        <section id="carga" class="tab-pane">
+            <h1 class="main-title">Sub-dimensión: Carga Académica</h1>
+            <table class="table-sentiment">
+                <thead><tr><th>Métrica</th><th>Score</th><th>Intensidad</th><th>Riesgo</th></tr></thead>
+                <tbody>
+                    <tr><td>Fatiga Percibida</td><td>0.82</td><td><span class="badge badge-critico">Extrema</span></td><td>Deserción</td></tr>
+                </tbody>
+            </table>
+            <table class="table-analysis">
+                <thead><tr><th colspan="2">Análisis de Carga e Insights</th></tr></thead>
+                <tbody>
+                    <tr><td class="num">01</td><td><strong>Saturación Transversal:</strong> Las materias transversales son vistas como "relleno" que drena energía vital necesaria para las materias de núcleo.</td></tr>
+                    <tr><td class="num">02</td><td><strong>Falta de Sincronía:</strong> No hay coordinación de entregables entre docentes, generando picos de estrés inmanejables.</td></tr>
+                </tbody>
+            </table>
+            <table class="table-verbatim">
+                <thead><tr><th colspan="2">Evidencia</th></tr></thead>
+                <tbody><tr><td class="quote-mark">“</td><td>"Hay semanas donde las transversales cansan más que las que uno de verdad necesita para la carrera."</td></tr></tbody>
+            </table>
+        </section>
+
+        <section id="tecnologico" class="tab-pane">
+            <h1 class="main-title">Dimensión: Tecnológico (SINU)</h1>
+            <table class="table-sentiment">
+                <thead><tr><th>Métrica</th><th>Score</th><th>Estado</th></tr></thead>
+                <tbody>
+                    <tr><td>Polaridad</td><td>-0.58</td><td><span class="badge badge-critico">Negativo</span></td></tr>
+                </tbody>
+            </table>
+            <table class="table-analysis">
+                <thead><tr><th colspan="2">Análisis de Fondo</th></tr></thead>
+                <tbody>
+                    <tr><td class="num">01</td><td><strong>Ansiedad Financiera:</strong> Los fallos en SINU durante los pagos generan un miedo real a perder el semestre, lo cual escala a ira institucional.</td></tr>
+                </tbody>
+            </table>
+            <table class="table-verbatim">
+                <thead><tr><th colspan="2">Voz del Estudiante</th></tr></thead>
+                <tbody><tr><td class="quote-mark">“</td><td>"Es frustrante que las plataformas fallen cada vez que uno va a pagar."</td></tr></tbody>
+            </table>
+        </section>
+
+        <section id="lms" class="tab-pane">
+            <h1 class="main-title">Sub-dimensión: LMS (CunDigital)</h1>
+            <table class="table-sentiment">
+                <thead><tr><th>Métrica</th><th>Score</th><th>Valoración</th></tr></thead>
+                <tbody>
+                    <tr><td>Calidad de Contenido</td><td>+0.88</td><td><span class="badge badge-pos">Excelente</span></td></tr>
+                </tbody>
+            </table>
+            <table class="table-analysis">
+                <thead><tr><th colspan="2">Insights de Plataforma</th></tr></thead>
+                <tbody>
+                    <tr><td class="num">01</td><td><strong>Autonomía Exitosa:</strong> El material en video es el activo pedagógico más valorado. Supera la calidad de muchas clases magistrales.</td></tr>
+                </tbody>
+            </table>
+            <table class="table-verbatim">
+                <thead><tr><th colspan="2">Evidencia</th></tr></thead>
+                <tbody><tr><td class="quote-mark">“</td><td>"Los videos de la plataforma son la clave. Uno aprende más ahí que con algunos profes."</td></tr></tbody>
+            </table>
+        </section>
+
+        <section id="servicio" class="tab-pane">
+            <h1 class="main-title">Dimensión: Servicio al Cliente</h1>
+            <table class="table-sentiment">
+                <thead><tr><th>Métrica</th><th>Score</th><th>Estado</th></tr></thead>
+                <tbody>
+                    <tr><td>Resolución en 1er contacto</td><td>0.12</td><td><span class="badge badge-critico">Nula</span></td></tr>
+                </tbody>
+            </table>
+            <table class="table-analysis">
+                <thead><tr><th colspan="2">Análisis de Fondo e Insights</th></tr></thead>
+                <tbody>
+                    <tr><td class="num">01</td><td><strong>El "Muro" Administrativo:</strong> CamiTicket es percibido como un bot que solo cierra casos sin dar soluciones, destruyendo la lealtad.</td></tr>
+                </tbody>
+            </table>
+            <table class="table-verbatim">
+                <thead><tr><th colspan="2">Evidencia</th></tr></thead>
+                <tbody><tr><td class="quote-mark">“</td><td>"Poner un ticket es hablarle al vacío. Nadie soluciona nada."</td></tr></tbody>
+            </table>
+        </section>
+
+        <section id="pertenencia" class="tab-pane">
+            <h1 class="main-title">Sentido de Pertenencia</h1>
+            <table class="table-sentiment">
+                <thead><tr><th>Métrica</th><th>Score</th><th>Estado</th></tr></thead>
+                <tbody>
+                    <tr><td>Orgullo Institucional</td><td>+0.65</td><td><span class="badge badge-pos">Positivo</span></td></tr>
+                </tbody>
+            </table>
+            <table class="table-analysis">
+                <thead><tr><th colspan="2">Análisis de Fondo</th></tr></thead>
+                <tbody>
+                    <tr><td class="num">01</td><td><strong>Sede A como Refugio:</strong> La terraza y espacios sociales son el ancla de retención. El descuido de implementos (raquetas) se siente como falta de respeto al pago del alumno.</td></tr>
+                </tbody>
+            </table>
+            <table class="table-verbatim">
+                <thead><tr><th colspan="2">Voz del Estudiante</th></tr></thead>
+                <tbody><tr><td class="quote-mark">“</td><td>"Me encanta la terraza, pero es triste que las raquetas estén siempre vueltas nada."</td></tr></tbody>
+            </table>
+        </section>
+
+        <section id="docencia" class="tab-pane">
+            <h1 class="main-title">Dimensión: Docencia</h1>
+            <table class="table-analysis">
+                <thead><tr><th colspan="2">Análisis de Fondo e Insights</th></tr></thead>
+                <tbody>
+                    <tr><td class="num">01</td><td><strong>Crisis del PowerPoint:</strong> Se rechaza al docente que lee diapositivas. Se busca al mentor que cuenta experiencias de la vida real.</td></tr>
+                </tbody>
+            </table>
+            <table class="table-verbatim">
+                <thead><tr><th colspan="2">Evidencia</th></tr></thead>
+                <tbody><tr><td class="quote-mark">“</td><td>"Hay profes geniales, otros solo llegan a leer lo que ya está en el PDF."</td></tr></tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <script>
+        function openTab(evt, tabId) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-pane");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active");
+            }
+            tablinks = document.getElementsByClassName("nav-btn");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+            document.getElementById(tabId).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+    </script>
+</body>
+</html>

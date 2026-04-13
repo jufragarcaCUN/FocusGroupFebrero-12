@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Auditoría de Escucha Activa CUN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="brand">CUN ANALYTICS</div>
+            
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li>
+                        <button class="nav-btn active" data-tab="inicio">Resumen Ejecutivo</button>
+                    </li>
+                    
+                    <div class="nav-label">DIMENSIONES CRÍTICAS</div>
+                    
+                    <li><a href="12-Febrero.html" class="nav-btn">12 de Febrero</a></li>
+                    <li><a href="13-Marzo.html" class="nav-btn">13 de Marzo</a></li>
+                    <li><a href="Sincelejo.html" class="nav-btn">Sincelejo</a></li>
+                    <li><a href="Monteria.html" class="nav-btn">Montería</a></li>
+                    <li><a href="SantaMarta.html" class="nav-btn">Santa Marta</a></li>
+                         <li><a href="Neiva.html" class="nav-btn">Neiva</a></li>
+                    <li><button class="nav-btn" id="back-btn">Regresar</button></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <section id="inicio" class="tab-pane active">
+                <h1 class="main-title">Resumen Ejecutivo: Auditoría de Escucha Activa</h1>
+                
+                <div class="welcome-card">
+                    <h2 class="section-subtitle">Especificaciones del Estudio</h2>
+                    <p class="welcome-text">
+<p class="welcome-text">
+    Este informe es el resultado de la minería de datos cualitativos obtenida en los 
+    <strong>Grupos Focales de febrero (16 presenciales y 2 virtuales)</strong> y 
+    <strong>marzo (18 virtuales y 2 presenciales)</strong>. 
+    
+</p>
+                </div>
+
+                <div class="contenedor-insights-gigante">
+                    <div class="caja-superior">
+                        <h4 class="titulo-gigante">1. Métricas de Sentimiento</h4>
+                        <p class="texto-gigante">Análisis de <strong>Polaridad</strong> y <strong>Subjetividad</strong>.</p>
+                    </div>
+                    <div class="caja-superior">
+                        <h4 class="titulo-gigante">2. Métricas de Gestión</h4>
+                        <p class="texto-gigante">Evaluación técnica del servicio mediante <strong>Score, Intensidad e Impacto</strong>.</p>
+                    </div>
+                    <div class="caja-superior">
+                        <h4 class="titulo-gigante">3. Intensidad y Esfuerzo</h4>
+                        <p class="texto-gigante">Evaluación del <strong>"Customer Effort Score"</strong>.</p>
+                    </div>
+                    <div class="caja-superior">
+                        <h4 class="titulo-gigante">4. Análisis e Insights</h4>
+                        <p class="texto-gigante">Interpretación estratégica y <strong>análisis de fondo</strong>.</p>
+                    </div>
+                    <div class="caja-superior">
+                        <h4 class="titulo-gigante">5. Evidencia Directa</h4>
+                        <p class="texto-gigante"><strong>Verbatims:</strong> Citas textuales extraídas de los grupos focales.</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="accordion-container" style="margin-top: 30px; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; background: white;">
+                <button class="accordion-header" onclick="toggleAccordion()" style="width: 100%; padding: 20px; background: #f8f9fa; border: none; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                    <span style="font-family: 'Montserrat', sans-serif; font-weight: 700; color: #333;">👥 BASE DE DATOS DE PARTICIPANTES (GRUPOS FOCALES)</span>
+                    <span id="acc-icon" style="color: #e10915; font-size: 1.5rem; font-weight: bold;">+</span>
+                </button>
+                
+                <div id="accordion-content" class="accordion-content" style="display: none; padding: 20px; overflow-x: auto; border-top: 1px solid #e0e0e0;">
+                    <table class="comparative-table">
+    <thead>
+        <tr>
+            <th>Fecha</th>
+            <th>Documento</th>
+            <th>Nombre Completo</th>
+            <th>Programa Académico</th>
+            <th>Modalidad</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>12/02/2026</td><td>1028863261</td><td>Jaider Santiago Beltrán Veloza</td><td>Ingeniería de Sistemas</td><td>Presencial</td></tr>
+        <tr><td>12/02/2026</td><td>1011086220</td><td>David Alejandro Hernández Rodríguez</td><td>Ingeniería de Sistemas</td><td>Presencial</td></tr>
+        <tr><td>12/02/2026</td><td>1031171124</td><td>Juan Esteban Bernal</td><td>Administración de Empresas</td><td>Presencial</td></tr>
+        <tr><td>12/02/2026</td><td>1010156798</td><td>Cristian Alexis Trujillo Padilla</td><td>Producción Audiovisual</td><td>Presencial</td></tr>
+        <tr><td>12/02/2026</td><td>1233501755</td><td>Tifany Cifuentes Cabrales</td><td>Diseño Gráfico</td><td>Presencial</td></tr>
+        <tr><td>12/02/2026</td><td>1016716433</td><td>Deiby Sebastián Gil Gallo</td><td>Diseño Gráfico</td><td>Presencial</td></tr>
+        <tr><td>12/02/2026</td><td>1013108384</td><td>Juan Esteban Marentes Caballero</td><td>Ingeniería Electrónica</td><td>Presencial</td></tr>
+        <tr><td>12/02/2026</td><td>1027151205</td><td>Laura Ximena Penagos Fernández</td><td>Diseño Gráfico</td><td>Presencial</td></tr>
+        <tr><td>12/02/2026</td><td>1025530709</td><td>Juan Sebastián Amado Rodríguez</td><td>Ingeniería Electrónica</td><td>Presencial</td></tr>
+        <tr><td>12/02/2026</td><td>1000850787</td><td>Juan David Velandia Guayacundo</td><td>Ingeniería de Sistemas</td><td>Presencial</td></tr>
+        <tr><td>12/02/2026</td><td>1072961025</td><td>Andrés Felipe Castro Rodriguez</td><td>Administración Deportiva</td><td>Presencial</td></tr>
+        <tr><td>12/02/2026</td><td>1024504661</td><td>Daniel Esteban Murcia Velásquez</td><td>Ingeniería de Sistemas</td><td>Presencial</td></tr>
+        <tr><td>13/02/2026</td><td>1011089116</td><td>Johan Jaramillo Mejía</td><td>Ingeniería de Sistemas</td><td>Presencial</td></tr>
+        <tr><td>11/03/2026</td><td>1101685660</td><td>Emerson Sair Salazar Corzo</td><td>Diseño Gráfico</td><td>Virtual</td></tr>
+        <tr><td>11/03/2026</td><td>1082979523</td><td>Breiner Zamir Hernandez Ñustes</td><td>Administración de Empresas</td><td>Virtual</td></tr>
+        <tr><td>12/03/2026</td><td>1030664643</td><td>Elkin Gómez</td><td>Publicidad y Mercadeo</td><td>Virtual</td></tr>
+        <tr><td>12/03/2026</td><td>10967574</td><td>Alber Manuel Martinez Palencia</td><td>Administración de Empresas</td><td>Virtual</td></tr>
+        <tr><td>12/03/2026</td><td>1021315566</td><td>Juan Esteban Contreras Lozano</td><td>Producción Audiovisual</td><td>Virtual</td></tr>
+        <tr><td>12/03/2026</td><td>1003721769</td><td>Jose Mario Llorente Machado</td><td>Administración de Empresas</td><td>Virtual</td></tr>
+        <tr><td>12/03/2026</td><td>1042433398</td><td>Hugo Rafael Mercado Bonett</td><td>Ingeniería Industrial</td><td>Virtual</td></tr>
+        <tr><td>12/03/2026</td><td>1072425446</td><td>Carlos Andres Penagos Cristobal</td><td>Contaduría Pública</td><td>Virtual</td></tr>
+        <tr><td>12/03/2026</td><td>1082958380</td><td>Dayana Melisa Perez Carrillo</td><td>Administración de Empresas</td><td>Virtual</td></tr>
+        <tr><td>12/03/2026</td><td>1001186234</td><td>Carlos Alberto Poveda Nuñez</td><td>Ingeniería de Sistemas</td><td>Presencial</td></tr>
+        <tr><td>12/03/2026</td><td>1070008398</td><td>Johanna Patricia Ramos Orjuela</td><td>Contaduría Pública</td><td>Virtual</td></tr>
+    </tbody>
+</table>
+                </div>
+            </div>
+
+            <section id="comparativa" class="tab-pane active" style="margin-top: 50px;">
+                <h2 class="section-subtitle">Análisis Comparativo Evolutivo: Presencial vs. Virtual</h2>
+                
+                <div class="explicacion-box">
+                    <h3 class="metodologia-titulo">Metodología del Score Semántico</h3>
+                    
+                </div>
+
+                <table class="comparative-table">
+                    <thead>
+                        <tr>
+                            <th>Subcategoría</th>
+                            <th>Métrica Clave</th>
+                            <th>Resultado Feb (Presencial)</th>
+                            <th>Resultado Mar (Virtual)</th>
+                            <th>Calor</th>
+                            <th>Explicación Operativa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Sede y Entorno</strong></td>
+                            <td>Polaridad de Sentimiento</td>
+                            <td><span class="metric-badge">+0.82</span><br><small>Valoración de espacios físicos y terrazas.</small></td>
+                            <td><span class="metric-badge">+0.90</span><br><small>Soberanía del tiempo y facilidad digital.</small></td>
+                            <td class="calor-up" style="color: #28a745; text-align: center;">▲</td>
+                            <td>Para el virtual, el <span class="highlight-text">LMS es su hogar</span>. Valoran la eliminación del desplazamiento como una ganancia de calidad de vida.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Canales de Servicio</strong></td>
+                            <td>Score de Eficacia (1-5)</td>
+                            <td><span class="metric-badge">3.2</span><br><small>Lentitud con opción presencial.</small></td>
+                            <td><span class="metric-badge">1.2</span><br><small>Bloqueo sistémico sin respuesta.</small></td>
+                            <td class="calor-down" style="color: #dc3545; text-align: center;">▼</td>
+                            <td>El virtual no tiene "Plan B". Un error en <span class="highlight-text">CamiTicket</span> se percibe como abandono financiero absoluto.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Carga Académica</strong></td>
+                            <td>Carga académica</td>
+                            <td><span class="metric-badge">15%</span><br><small>Fatiga por materias disciplinares.</small></td>
+                            <td><span class="metric-badge">45%</span><br><small>Crisis por pérdida de créditos.</small></td>
+                            <td class="calor-down" style="color: #dc3545; text-align: center;">▼</td>
+                            <td>El <span class="highlight-text">"Trauma de Reintegro"</span> genera insatisfacción, a veces los creditos no parecen completos en SINU</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Docencia</strong></td>
+                            <td>Satisfacción (CSAT)</td>
+                            <td><span class="metric-badge">4.7</span><br><small>Conexión humana en aula.</small></td>
+                            <td><span class="metric-badge">4.4</span><br><small>Guía académica estable.</small></td>
+                            <td class="calor-stable" style="color: #ffc107; text-align: center;">●</td>
+                            <td>El profesor es respetado, pero el virtual exige <span class="highlight-text">actualización de contenidos</span> multimedia y software moderno.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Pertenencia</strong></td>
+                            <td>Índice de Conexión</td>
+                            <td><span class="metric-badge">ALTA</span><br><small>Vínculo social y cultural.</small></td>
+                            <td><span class="metric-badge">BAJA</span><br><small>Vínculo por resolución.</small></td>
+                            <td class="calor-down" style="color: #dc3545; text-align: center;">▼</td>
+                            <td>El virtual se siente CUNista solo si la universidad <span class="highlight-text">le resuelve</span>. Si el proceso falla, la conexión desaparece.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="comparativa" class="tab-pane active" style="margin-top: 50px;">
+    <h2 class="section-subtitle">Análisis Comparativo por Ciudad</h2>
+    
+    <div class="explicacion-box">
+        <h3 class="metodologia-titulo">Metodología del Análisis</h3>
+        <p>La siguiente tabla presenta la <strong>polaridad de sentimiento</strong> y una breve explicación de cada subcategoría analizada en las cuatro sedes: Sincelejo, Montería, Santa Marta y Neiva. Los datos provienen de los grupos focales realizados con estudiantes de Ingeniería de Sistemas y Diseño Gráfico durante abril de 2026.</p>
+    </div>
+
+    <div style="overflow-x: auto;">
+        <table class="comparative-table">
+            <thead>
+                <tr>
+                    <th>Categoría</th>
+                    <th>Subcategoría</th>
+                    <th>Sincelejo</th>
+                    <th>Montería</th>
+                    <th>Santa Marta</th>
+                    <th>Neiva</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- ACADÉMICO -->
+                <tr style="background-color: #f0fdf4;">
+                    <td rowspan="4"><strong>ACADÉMICO</strong></td>
+                    <td>Relación con docentes</td>
+                    <td><span class="badge badge-pos">Muy positiva (+0.88)</span><br><small>Docentes apasionados, sin quejas.</small></td>
+                    <td><span class="badge badge-pos">Muy positiva (+0.85)</span><br><small>Docentes explican bien, disponibles.</small></td>
+                    <td><span class="badge badge-pos">Muy positiva (+0.82)</span><br><small>Docentes comprensivos, se convierten en amigos.</small></td>
+                    <td><span class="badge badge-pos">Positiva (+0.70)</span><br><small>Mayoría buenos, pero un caso puntual de docente que no cumple horario.</small></td>
+                </tr>
+                <tr style="background-color: #f0fdf4;">
+                    <td>Currículo / Contenidos</td>
+                    <td><span class="badge badge-pos">Muy positiva (+0.90)</span><br><small>Pensum excelente, actualizado en IA y programación.</small></td>
+                    <td><span class="badge badge-pos">Positiva (+0.65)</span><br><small>Metodología pitch bien valorada, piden más práctica real.</small></td>
+                    <td><span class="badge badge-neutral">Neutral (-0.35)</span><br><small>Problemas con calificaciones y uso de IA para calificar.</small></td>
+                    <td><span class="badge badge-neutral">Neutral (-0.40)</span><br><small>Enfoque capitalino (solo Adobe, no Corel).</small></td>
+                </tr>
+                <tr style="background-color: #f0fdf4;">
+                    <td>Prácticas profesionales</td>
+                    <td><span class="badge badge-critico">Negativa (-0.70)</span><br><small>Falta de convenios, estudiantes pierden la asignatura.</small></td>
+                    <td><span class="badge badge-critico">Muy negativa (-0.78)</span><br><small>Sin convenios, estudiantes atrasados hasta octavo semestre.</small></td>
+                    <td><span class="badge badge-critico">Negativa (-0.65)</span><br><small>Dos meses sin docente de prácticas, "ciegos" en el tema.</small></td>
+                    <td><span class="badge badge-critico">Negativa (-0.65)</span><br><small>Docente de prácticas no responde correos ni revisa documentos.</small></td>
+                </tr>
+                <tr style="background-color: #f0fdf4;">
+                    <td>Uso de tecnología en aula</td>
+                    <td><small>No mencionado</small></td>
+                    <td><small>No mencionado</small></td>
+                    <td><small>No mencionado</small></td>
+                    <td><span class="badge badge-neutral">Neutral (-0.35)</span><br><small>Solo diapositivas, sin gamificación ni interactividad.</small></td>
+                </tr>
+
+                <!-- TECNOLÓGICO -->
+                <tr style="background-color: #eff6ff;">
+                    <td rowspan="4"><strong>TECNOLÓGICO</strong></td>
+                    <td>Plataforma digital</td>
+                    <td><span class="badge badge-neutral">Neutral (-0.40)</span><br><small>Cdigital se cae, no notifica, correos tardan 2-3 días.</small></td>
+                    <td><span class="badge badge-pos">Positiva (+0.72)</span><br><small>SE Digital fácil de usar. SINU menos comprendido.</small></td>
+                    <td><span class="badge badge-critico">Negativa (-0.55)</span><br><small>SE Digital se cae, error 505, no carga archivos pesados.</small></td>
+                    <td><span class="badge badge-neutral">Neutral (-0.30)</span><br><small>Fallas al cargar grabaciones de clases.</small></td>
+                </tr>
+                <tr style="background-color: #eff6ff;">
+                    <td>Equipos / Laboratorios / Infraestructura</td>
+                    <td><span class="badge badge-critico">Negativa (-0.60)</span><br><small>Laboratorio: pocas torres, faltan herramientas.</small></td>
+                    <td><span class="badge badge-critico">Muy negativa (-0.88)</span><br><small>No hay CPUs, ponchadores, cables. Nulo equipamiento.</small></td>
+                    <td><span class="badge badge-critico">Negativa (-0.70)</span><br><small>Licencias Adobe: no tienen acceso gratuito, costo elevado.</small></td>
+                    <td><span class="badge badge-critico">Negativa (-0.60)</span><br><small>Solo dos salones con sistemas, estudiantes "vuelan por salón".</small></td>
+                </tr>
+                <tr style="background-color: #eff6ff;">
+                    <td>Conectividad</td>
+                    <td><small>No mencionado</small></td>
+                    <td><span class="badge badge-neutral">Neutral (-0.35)</span><br><small>Problemas de internet en casa afectan entregas.</small></td>
+                    <td><small>No mencionado</small></td>
+                    <td><small>No mencionado</small></td>
+                </tr>
+                <tr style="background-color: #eff6ff;">
+                    <td>Aplicación CUN 360</td>
+                    <td><small>No mencionado</small></td>
+                    <td><small>No mencionado</small></td>
+                    <td><span class="badge badge-neutral">Neutral (-0.40)</span><br><small>Solo sirve para ver carnet y horario.</small></td>
+                    <td><span class="badge badge-neutral">Neutral (-0.25)</span><br><small>Plataforma de pagos cambió fecha sin aviso.</small></td>
+                </tr>
+
+                <!-- SERVICIO AL CLIENTE -->
+                <tr style="background-color: #fef3c7;">
+                    <td rowspan="4"><strong>SERVICIO AL CLIENTE</strong></td>
+                    <td>Cami Tickets / Respuestas</td>
+                    <td><span class="badge badge-critico">Negativa (-0.55)</span><br><small>Demoran 3-4 días. Respuesta: "manda ticket a Bogotá".</small></td>
+                    <td><span class="badge badge-pos">Positiva (+0.65)</span><br><small>Atención de Irina valorada, pero tickets a veces archivados.</small></td>
+                    <td><span class="badge badge-critico">Muy negativa (-0.80)</span><br><small>Demoran semanas o un mes. Algunos nunca responden.</small></td>
+                    <td><span class="badge badge-critico">Negativa (-0.55)</span><br><small>Tickets demoran semanas. Temas financieros más demorados.</small></td>
+                </tr>
+                <tr style="background-color: #fef3c7;">
+                    <td>Personal administrativo presencial</td>
+                    <td><small>No aplica (Bienestar cumple ese rol)</small></td>
+                    <td><small>No aplica (Irina cumple ese rol)</small></td>
+                    <td><span class="badge badge-critico">Muy negativa (-0.75)</span><br><small>No hay coordinador ni gestión presencial. Todo depende de Karen.</small></td>
+                    <td><small>No mencionado</small></td>
+                </tr>
+                <tr style="background-color: #fef3c7;">
+                    <td>Comunicación institucional</td>
+                    <td><small>No mencionado</small></td>
+                    <td><span class="badge badge-neutral">Neutral (+0.20)</span><br><small>Solo correo, insuficiente. Proponen Instagram y TikTok.</small></td>
+                    <td><span class="badge badge-critico">Negativa (-0.60)</span><br><small>No reciben info oportuna (pruebas TYT un día antes).</small></td>
+                    <td><small>No mencionado</small></td>
+                </tr>
+                <tr style="background-color: #fef3c7;">
+                    <td>Certificados / Procesos</td>
+                    <td><small>No mencionado</small></td>
+                    <td><span class="badge badge-neutral">Neutral (-0.25)</span><br><small>Pagos PSE con fallas y falta de claridad.</small></td>
+                    <td><small>No mencionado</small></td>
+                    <td><span class="badge badge-critico">Negativa (-0.60)</span><br><small>Certificados no se generan automáticamente, toca enviar ticket.</small></td>
+                </tr>
+
+                <!-- SENTIDO DE PERTENENCIA -->
+                <tr style="background-color: #f3e8ff;">
+                    <td rowspan="4"><strong>SENTIDO DE PERTENENCIA</strong></td>
+                    <td>Orgullo institucional</td>
+                    <td><span class="badge badge-pos">Muy positiva (+0.92)</span><br><small>"Muy contento y agradecido", recomiendan la CUN.</small></td>
+                    <td><span class="badge badge-pos">Muy positiva (+0.90)</span><br><small>"Yo sí me siento orgulloso, no me da pena decirlo".</small></td>
+                    <td><span class="badge badge-pos">Positiva (+0.75)</span><br><small>"Yo quiero la CUN, me encanta, me dio la oportunidad de estudiar lo que soñé".</small></td>
+                    <td><span class="badge badge-pos">Muy positiva (+0.85)</span><br><small>"La CUN significa oportunidades, flexibilidad y aprendizaje".</small></td>
+                </tr>
+                <tr style="background-color: #f3e8ff;">
+                    <td>Percepción de ser escuchados</td>
+                    <td><small>No mencionado</small></td>
+                    <td><span class="badge badge-pos">Positiva (+0.72)</span><br><small>Valoran los espacios de escucha activa.</small></td>
+                    <td><span class="badge badge-pos">Positiva (+0.70)</span><br><small>"No había encontrado un espacio idóneo para que me escucharan".</small></td>
+                    <td><span class="badge badge-pos">Positiva (+0.65)</span><br><small>Espacio genera expectativas positivas de cambio.</small></td>
+                </tr>
+                <tr style="background-color: #f3e8ff;">
+                    <td>Beneficios / Actividades</td>
+                    <td><span class="badge badge-pos">Muy positiva (+0.85)</span><br><small>Conocen CTéTiene, becas deportivas/culturales, escuelas de formación.</small></td>
+                    <td><small>No aplica (mencionado en Bienestar y otros)</small></td>
+                    <td><small>No aplica (mencionado en Bienestar)</small></td>
+                    <td><small>No mencionado</small></td>
+                </tr>
+                <tr style="background-color: #f3e8ff;">
+                    <td>Apoyo de Bienestar</td>
+                    <td><span class="badge badge-pos">Muy positiva (+0.92)</span><br><small>"Bienestar es nuestro puente de apoyo".</small></td>
+                    <td><span class="badge badge-pos">Muy positiva (+0.88)</span><br><small>Bienestar e Irina son soporte emocional.</small></td>
+                    <td><span class="badge badge-pos">Muy positiva (+0.85)</span><br><small>Karen es el único canal presencial que funciona.</small></td>
+                    <td><small>No mencionado</small></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<seccion>
+    <div class = "slides">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTR9WwRwPGd0lTz35zc57aGrCvgGKlrPq21J64Ih_JGlXs4ga_efpC9P6jLFLW65jc3xTUt_A3sXANV/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="1536" height="893" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+</seccion>    
+
+        </main>
+    </div>
+
+    <script>
+        function toggleAccordion() {
+            const content = document.getElementById('accordion-content');
+            const icon = document.getElementById('acc-icon');
+            if (content.style.display === "block") {
+                content.style.display = "none";
+                icon.innerText = "+";
+            } else {
+                content.style.display = "block";
+                icon.innerText = "-";
+            }
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
