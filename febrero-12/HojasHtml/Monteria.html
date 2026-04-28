@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz de Auditoría Final - Sede Montería</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/style.css">
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="brand">CUN ANALYTICS</div>
+        <nav class="nav-menu">
+            <button class="nav-btn active" onclick="openTab(event, 'academico')">ACADÉMICO</button>
+            <button class="nav-btn" onclick="openTab(event, 'tecnologico')">TECNOLÓGICO</button>
+            <button class="nav-btn" onclick="openTab(event, 'servicio')">SERVICIO AL CLIENTE</button>
+
+            <button class="nav-btn" onclick="openTab(event, 'pertenencia')">SENTIDO DE PERTENENCIA</button>
+            <li><button class="nav-btn" id="back-btn">Regresar</button></li>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+
+        <!-- SECCIÓN ACADÉMICO -->
+        <section id="academico" class="tab-pane active" style="display: block;">
+            <h1 class="main-title">ACADÉMICO</h1>
+            <section>
+                <div class="item-container">
+                    <div class="container mt-4">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped table-hover align-middle text-center">
+                                <thead class="table-primary">
+                                    <tr>
+                                        <th>Población</th>
+                                        <th>Carrera</th>
+                                        <th>Semestres</th>
+                                        <th>Hombres</th>
+                                        <th>Mujeres</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-start">Estudiantes</th>
+                                        <td class="text-start">Ingeniería de Sistemas</th>
+                                        <td class="text-start">8vo semestre</th>
+                                        <td>3</th>
+                                        <td>2</th>
+                                        <td><strong>5</strong></th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Calidad del Pensum -->
+            <div class="item-container">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Subcategoría</th>
+                            <th>Polaridad</th>
+                            <th>Score / Eficacia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ACADÉMICO</th>
+                            <td>Calidad del Pensum y Actualización</th>
+                            <td><span class="badge-pos">Positiva (+0.85)</span></th>
+                            <td>9.0 / 10</th>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><strong>Análisis (CES):</strong> Bajo. Los estudiantes consideran que el contenido es robusto y actualizado.</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights">
+                        <tr>
+                            <td>1. Gran aceptación de la malla curricular.</th>
+                            <td>2. Valoran la profundidad de los temas de programación.</th>
+                        </table>
+                        <tr>
+                            <td>3. Sienten que el nivel de exigencia es adecuado.</th>
+                            <td>4. Los contenidos digitales (ACA) son vistos como retos que aportan conocimiento.</th>
+                        </tr>
+                        <tr>
+                            <td>5. Percepción de que el pensum los prepara para el mercado laboral.</th>
+                            <td>6. Se aprecia la coherencia entre niveles técnicos y profesionales.</th>
+                        </tr>
+                        <tr>
+                            <td>7. Interés genuino por las materias de bases de datos.</th>
+                            <td>8. Los materiales de apoyo en plataforma son suficientes.</th>
+                        </tr>
+                        <tr>
+                            <td>9. El pensum es el principal motivo de recomendación.</th>
+                            <td>10. Satisfacción con el orden de las asignaturas.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container">
+                    <div class="verbatim">"Todo lo que es teórico es excelente." – José Carlos</div>
+                    <div class="verbatim">"Los contenidos me parecen interesantes... uno se nutre teóricamente." – José Carlos</div>
+                    <div class="verbatim">"Sentimos que estamos aprendiendo lo que realmente se usa en las empresas..." – José Carlos</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_pensum">Tickets</button>
+                <div class="collapse" id="tk_pensum">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Calidad del Pensum</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Calidad_Pensum" height="120"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Docencia y Metodología -->
+            <div class="item-container">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Subcategoría</th>
+                            <th>Polaridad</th>
+                            <th>Score / Eficacia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ACADÉMICO</th>
+                            <td>Docencia y Metodología</th>
+                            <td><span class="badge-pos">Positiva (+0.95)</span></th>
+                            <td>9.5 / 10</th>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><strong>Análisis (CES):</strong> Bajo. El cuerpo docente es el pilar de satisfacción de la sede.</th>
+                        </tr>
+                        <tr class="eval-docente">
+                            <td colspan="4" class="p-3">
+                                <strong class="me-2">Promedio Calificación evaluación docente</strong>
+                                <span class="badge border border-success-emphasis text-success-emphasis bg-success-subtle p-2 px-3">4.63</span>
+                            </th>
+                        </tr>
+                    </tbody>
+                <table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights">
+                        <tr>
+                            <td>1. Los profesores son calificados como excelentes y muy preparados.</th>
+                            <td>2. Trato humano y disposición para tutorías constante.</th>
+                        </tr>
+                        <tr>
+                            <td>3. Se destaca el dominio de temas complejos (lógica de programación).</th>
+                            <td>4. El docente local actúa como mentor y guía profesional.</th>
+                        </tr>
+                        <tr>
+                            <td>5. Existe una comunicación abierta y asertiva.</th>
+                            <td>6. Metodologías prácticas que facilitan el aprendizaje.</th>
+                        </tr>
+                        <tr>
+                            <td>7. Se valora que los profes usen ejemplos reales de la industria.</th>
+                            <td>8. Los alumnos se sienten escuchados en el aula.</th>
+                        </tr>
+                        <tr>
+                            <td>9. Es la dimensión con mayor NPS de la sede.</th>
+                            <td>10. Confianza total en la capacidad técnica de los tutores.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container">
+                    <div class="verbatim">"Los profesores nos brindan la enseñanza muy bien." – Iván Sierra</div>
+                    <div class="verbatim">"Satisfecho con el servicio prestado por ellos en la academia." – José Carlos</div>
+                    <div class="verbatim">"Los profes siempre están dispuestos a ayudarnos después de clase". – Helen Vanessa</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_docencia">Tickets</button>
+                <div class="collapse" id="tk_docencia">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Docencia y Metodología</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Docencia_Metodologia"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Prácticas Profesionales -->
+            <div class="item-container">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Subcategoría</th>
+                            <th>Polaridad</th>
+                            <th>Score / Eficacia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ACADÉMICO</th>
+                            <td>Prácticas Profesionales</th>
+                            <td><span class="badge-critico">Crítica (-0.90)</span></th>
+                            <td>2.0 / 10</th>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><strong>Análisis (CES):</strong> Extremo. Crisis por falta de convenios y bloqueos administrativos.</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights">
+                        <tr>
+                            <td>1. Estudiantes de 8vo semestre están estancados sin práctica.</th>
+                            <td>2. Los convenios locales en Montería son casi inexistentes.</th>
+                        </tr>
+                        <tr>
+                            <td>3. La sede nacional en Bogotá no legaliza los contratos a tiempo.</th>
+                            <td>4. Desesperación por el riesgo de no poder graduarse.</th>
+                        </tr>
+                        <tr>
+                            <td>5. Los estudiantes deben buscar las empresas por su cuenta sin apoyo.</th>
+                            <td>6. Pérdida de vacantes reales por lentitud burocrática de la U.</th>
+                        </tr>
+                        <tr>
+                            <td>7. Falta de un gestor de prácticas con autonomía en la sede.</th>
+                            <td>8. Desinformación sobre procesos de homologación de trabajo.</th>
+                        </tr>
+                        <tr>
+                            <td>9. El área de prácticas es percibida como "enemiga" del estudiante.</th>
+                            <td>10. Mayor punto de dolor y queja colectiva.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container">
+                    <div class="verbatim">"Muchos estudiantes siempre pierden práctica porque uno las tiene que buscar." – José Carlos</div>
+                    <div class="verbatim">"Estoy atrasado... ya voy por octavo semestre y apenas haciendo las tecnólogas." – José Carlos</div>
+                    <div class="verbatim">"Duele ver que uno llega al final y se estanca por un papel." – Iván Andrés</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_practicas">Tickets</button>
+                <div class="collapse" id="tk_practicas">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Prácticas Profesionales</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Practicas_Profesionales"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN TECNOLÓGICO -->
+        <section id="tecnologico" class="tab-pane">
+            <h1 class="main-title">TECNOLÓGICO</h1>
+
+            <!-- Plataforma SE Digital -->
+            <div class="item-container">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Subcategoría</th>
+                            <th>Polaridad</th>
+                            <th>Score / Eficacia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>TECNOLÓGICO</th>
+                            <td>Plataforma SE Digital</th>
+                            <td><span class="badge-pos">Positiva (+0.80)</span></th>
+                            <td>8.5 / 10</th>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><strong>Análisis (CES):</strong> Bajo. Herramienta confiable y eje de la formación.</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights">
+                        <tr>
+                            <td>1. La interfaz es intuitiva y fácil de usar.</th>
+                            <td>2. Los contenidos están bien segmentados y actualizados.</th>
+                        </tr>
+                        <tr>
+                            <td>3. Buen funcionamiento de los foros de consulta.</th>
+                            <td>4. Facilidad para la entrega de evidencias y seguimiento de notas.</th>
+                        </tr>
+                        <tr>
+                            <td>5. Los recursos multimedia son valorados como apoyo extra.</th>
+                            <td>6. Estabilidad del sistema durante exámenes.</th>
+                        </tr>
+                        <tr>
+                            <td>7. Es la herramienta tecnológica con mejor imagen.</th>
+                            <td>8. Permite autonomía en el estudio.</th>
+                        </tr>
+                        <tr>
+                            <td>9. Se integra bien con las clases presenciales.</th>
+                            <td>10. Pocos reportes de errores técnicos.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container">
+                    <div class="verbatim">"Me parece una plataforma muy sencilla, didáctica... genial." – José Carlos</div>
+                    <div class="verbatim">"SE Digital no tengo ninguna queja... todo está super organizado." – Helen Vanessa</div>
+                    <div class="verbatim">"Uno entra a la plataforma y ya la tarea se pasó porque el correo no llegó". – Helen Vanessa</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_cdigital">Tickets</button>
+                <div class="collapse" id="tk_cdigital">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Plataforma SE Digital</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Tecnologico_Tickets"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plataforma SINU -->
+            <div class="item-container">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Subcategoría</th>
+                            <th>Polaridad</th>
+                            <th>Score / Eficacia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>TECNOLÓGICO</th>
+                            <td>Plataforma SINU</th>
+                            <td><span class="badge-warn">Mixta (-0.20)</span></th>
+                            <td>5.0 / 10</th>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><strong>Análisis (CES):</strong> Medio. Interfaz obsoleta y procesos administrativos lentos.</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights">
+                        <tr>
+                            <td>1. Registro de notas tarda en reflejarse.</th>
+                            <td>2. El proceso de matrícula es confuso y genera ansiedad.</th>
+                        </tr>
+                        <tr>
+                            <td>3. Visualmente se siente anticuada frente a SE Digital.</th>
+                            <td>4. Dificultad para generar recibos de pago.</th>
+                        </tr>
+                        <tr>
+                            <td>5. El sistema se bloquea en fechas críticas de corte.</th>
+                            <td>6. La navegación no es lógica para el usuario nuevo.</th>
+                        </tr>
+                        <tr>
+                            <td>7. Falta de integración entre lo financiero y lo académico.</th>
+                            <td>8. Reportan errores al inscribir materias opcionales.</th>
+                        </tr>
+                        <tr>
+                            <td>9. Solo se usa para trámites pesados y obligatorios.</th>
+                            <td>10. Requiere una renovación de experiencia de usuario.</th>
+                        </tr>
+                    </tr>
+                </ul>
+                <div class="verbatim-container">
+                    <div class="verbatim">"Sobre SINU, no le entiendo muy bien... paso muy poco tiempo ahí." – Helen Vanessa</div>
+                    <div class="verbatim">"Hay que ver si te queda la marca de pago en SINU." – Irina</div>
+                    <div class="verbatim">"Uno entra a la plataforma y ya la tarea se pasó porque el correo no llegó".</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_sinu">Tickets</button>
+                <div class="collapse" id="tk_sinu">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Plataforma SINU</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_SINU"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Herramientas en Aula (Hardware) -->
+            <div class="item-container">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Subcategoría</th>
+                            <th>Polaridad</th>
+                            <th>Score / Eficacia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>TECNOLÓGICO</th>
+                            <td>Herramientas en Aula (Hardware)</th>
+                            <td><span class="badge-critico">Crítica (-0.90)</span></th>
+                            <td>1.0 / 10</th>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><strong>Análisis (CES):</strong> Crítico. Falta absoluta de herramientas físicas de ingeniería.</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights">
+                        <tr>
+                            <td>1. No hay CPUs para prácticas de mantenimiento y ensamble.</th>
+                            </tr>2. Falta de kits de redes (ponchadoras, probadores, cables).</th>
+                        </tr>
+                        <tr>
+                            <td>3. Los laboratorios son salones con PCs viejos, no laboratorios reales.</th>
+                            <td>4. Inexistencia de herramientas de electrónica básica.</th>
+                        </tr>
+                        <tr>
+                            <td>5. Los estudiantes deben simular todo virtualmente por falta de equipo.</th>
+                            <td>6. Sentimiento de desventaja técnica frente a otras sedes.</th>
+                        </tr>
+                        <tr>
+                            <td>7. Se requiere inversión urgente en dotación física.</th>
+                            <td>8. El hardware actual es insuficiente para desarrollo pesado.</th>
+                        </tr>
+                        <tr>
+                            <td>9. No hay insumos para prácticas de redes físicas.</th>
+                            <td>10. Desconexión entre la teoría de ingeniería y la práctica real.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container">
+                    <div class="verbatim">"No tenemos equipos para práctica... no tenemos ni siquiera un ponchador." – Iván Sierra</div>
+                    <div class="verbatim">"No tenemos una CPU para soltar, para ver qué hay que cambiar." – Iván Sierra</div>
+                    <div class="verbatim">"El reflejo de la luz en el televisor hace que no se lea bien lo que escribe el profe".</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_hardware">Tickets</button>
+                <div class="collapse" id="tk_hardware">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Herramientas en Aula</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Herramientas_Aula"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Infraestructura de Laboratorio -->
+            <div class="item-container">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Subcategoría</th>
+                            <th>Polaridad</th>
+                            <th>Score / Eficacia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>TECNOLÓGICO</th>
+                            <td>Infraestructura de Laboratorio</th>
+                            <td><span class="badge-critico">Crítica (-0.75)</span></th>
+                            <td>2.0 / 10</th>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><strong>Análisis (CES):</strong> Alto. Espacios deficientes para la demanda estudiantil y falta de materiales.</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights">
+                        <tr>
+                            <td>1. Los laboratorios carecen de dotación física necesaria.</th>
+                            <td>2. Se percibe una brecha enorme con las sedes principales.</th>
+                        </tr>
+                        <tr>
+                            <td>3. El internet en los hogares falla, aumentando la necesidad de la sede.</th>
+                            <td>4. La infraestructura actual no permite el desarrollo de prácticas reales.</th>
+                        </tr>
+                        <tr>
+                            <td>5. Las grabaciones de clase presentan accesos denegados ocasionalmente.</th>
+                            <td>6. El software de simuladores es la única alternativa al hardware faltante.</th>
+                        </tr>
+                        <tr>
+                            <td>7. Dificultades con el plugin de creación de grupos en plataforma.</th>
+                            <td>8. Inconsistencia en la carga de imágenes pesadas en laboratorios virtuales.</th>
+                        </tr>
+                        <tr>
+                            <td>9. Falta de materiales físicos para trabajar en clase presencial.</th>
+                            <td>10. Los estudiantes deben buscar sus propios materiales externos.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container">
+                    <div class="verbatim">"Los profesores nos mandan a buscar a veces lo que tenemos que trabajar." – José Carlos</div>
+                    <div class="verbatim">"Necesitamos más útiles para hacer las prácticas." – Iván Sierra</div>
+                    <div class="verbatim">"Las torres que hay son muy pocas... tenemos que esperar a que alguien termine". – Iván Sierra</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_lab">Tickets</button>
+                <div class="collapse" id="tk_lab">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Infraestructura de Laboratorio</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Laboratorio"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SERVICIO AL CLIENTE -->
+        <section id="servicio" class="tab-pane">
+            <h1 class="main-title">SERVICIO AL CLIENTE</h1>
+
+            <!-- CamiTicket -->
+            <div class="item-container">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Subcategoría</th>
+                            <th>Polaridad</th>
+                            <th>Score / Eficacia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SERVICIO AL CLIENTE</th>
+                            <td>CamiTicket y Respuesta</th>
+                            <td><span class="badge-critico">Crítica (-0.95)</span></th>
+                            <td>1.5 / 10</th>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><strong>Análisis (CES):</strong> Insostenible. Los tickets son archivados o respondidos con evasivas.</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights">
+                        <tr>
+                            <td>1. Percepción de abandono total en las respuestas de CamiTicket.</th>
+                            <td>2. Los tickets son dejados "archivados" sin resolución.</th>
+                        </tr>
+                        <tr>
+                            <td>3. Las respuestas docentes por este medio son nulas en prácticas.</th>
+                            <td>4. La centralización en Bogotá/Medellín ignora la realidad local.</th>
+                        </tr>
+                        <tr>
+                            <td>5. El sistema no presta atención a las solicitudes de Montería.</th>
+                            <td>6. Respuestas de profesores consisten en reenviar fechas ya vencidas.</th>
+                        </tr>
+                        <tr>
+                            <td>7. Dificultad para reportar calamidades familiares o de salud.</th>
+                            <td>8. El canal se siente como un obstáculo y no como una solución.</th>
+                        </tr>
+                        <tr>
+                            <td>9. Los estudiantes prefieren el contacto directo presencial sobre el ticket.</th>
+                            <td>10. Genera frustración y atraso académico severo.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container">
+                    <div class="verbatim">"Si uno manda un ticket... no nos prestan mucha atención." – Iván Sierra</div>
+                    <div class="verbatim">"Los camickets... los dejan archivados... no responden nada." – Iván Andrés</div>
+                    <div class="verbatim">"Parece que en Bogotá no supieran qué pasa aquí en Montería". – Iván Sierra</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_camiticket">Tickets</button>
+                <div class="collapse" id="tk_camiticket">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - CamiTicket</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_CamiTicket"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bienestar Institucional -->
+            <div class="item-container">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Subcategoría</th>
+                            <th>Polaridad</th>
+                            <th>Score / Eficacia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SERVICIO AL CLIENTE</th>
+                            <td>Bienestar Institucional</th>
+                            <td><span class="badge-pos">Positiva (+0.95)</span></th>
+                            <td>9.5 / 10</th>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><strong>Análisis (CES):</strong> Bajo. Único canal humano que mitiga las fallas administrativas.</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights">
+                        <tr>
+                            <td>1. Los talleres (danza) son calificados como dinámicos y excelentes.</th>
+                            <td>2. Permiten la integración entre estudiantes de diferentes carreras.</th>
+                        </tr>
+                        <tr>
+                            <td>3. Se entregan incentivos (boletas de cine) por participación.</th>
+                            <td>4. Bienestar escucha y mapea las fallas para intentar mejorarlas.</th>
+                        </tr>
+                        <tr>
+                            <td>5. Se destaca el "granito de arena" en dotación deportiva reciente.</th>
+                            <td>6. Existe una relación de confianza con los líderes de bienestar.</th>
+                        </tr>
+                        <tr>
+                            <td>7. El taller de danza se percibe como un espacio de alta calidad.</th>
+                            <td>8. Motivación estudiantil por generar contenido para redes sociales.</th>
+                        </tr>
+                        <tr>
+                            <td>9. Actividades extracurriculares fomentan el espíritu cunista.</th>
+                            <td>10. Se solicita mayor publicidad para que más gente se sume.</th>
+                        </tr>
+                    </tr>
+                </ul>
+                <div class="verbatim-container">
+                    <div class="verbatim">"Las cosas que estamos aprendiendo son demasiado chéveres." – Helen Vanessa</div>
+                    <div class="verbatim">"Bienestar está ahí poniendo su granito de arena... ya tenemos uniformes." – José Carlos</div>
+                    <div class="verbatim">"Si no fuera por bienestar, uno andaría perdido con tantos trámites". – Helen Vanessa</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_bienestar">Tickets</button>
+                <div class="collapse" id="tk_bienestar">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Bienestar Institucional</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Bienestar_Institucional"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- INFRAESTRUCTURA (Comodidad y Servicios Físicos) -->
+            <div class="item-container">
+                <h1 class="main-title" style="font-size: 1.8rem; margin-top: 2rem;">INFRAESTRUCTURA</h1>
+                <div class="sub-title">Comodidad y Servicios Físicos</div>
+                <table class="table table-bordered" style="margin-top: 1rem;">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Subcategoría</th>
+                            <th>Polaridad</th>
+                            <th>Score / Eficacia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="odd">
+                            <td>INFRAESTRUCTURA</th>
+                            <td>Comodidad y Servicios Físicos</th>
+                            <td><span class="badge-warn">Mixta (0.00)</span></th>
+                            <td>6.0 / 10</th>
+                        </tr>
+                        <tr class="even">
+                            <td colspan="4"><strong>Análisis (CES):</strong> Medio. Espacios agradables pero con carencias de comunicación.</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights">
+                        <tr>
+                            <td>1. La biblioteca es un punto de interés para estudiantes virtuales.</th>
+                            <td>2. El ambiente general de la sede se describe como agradable.</th>
+                        </tr>
+                        <tr>
+                            <td>3. El personal de seguridad (vigilantes) contribuye al buen clima.</th>
+                            <td>4. Se realizan ferias y eventos, pero con mala difusión horaria.</th>
+                        </tr>
+                        <tr>
+                            <td>5. Los encuentros presenciales son valorados para crear comunidad.</th>
+                            <td>6. Dificultad de acceso a la sede para estudiantes que trabajan.</th>
+                        </tr>
+                        <tr>
+                            <td>7. Se percibe una sede con potencial pero subutilizada.</th>
+                            <td>8. La sede física es el refugio ante fallas de internet en casa.</th>
+                        </tr>
+                        <tr>
+                            <td>9. Deseo de mayor presencia en espacios presenciales.</th>
+                            <td>10. Necesidad de fortalecer la visibilidad de los servicios físicos.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container">
+                    <div class="verbatim">"Me gustaría visitar la biblioteca... me gustaría participar en más actividades." – Helen Vanessa</div>
+                    <div class="verbatim">"El vigilante que me saluda, la profe... todo se siente muy chévere." – Helen Vanessa</div>
+                    <div class="verbatim">"Si alguien se desmaya por el calor, no hay ni una enfermería básica".</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_infra">Tickets</button>
+                <div class="collapse" id="tk_infra">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Comodidad y Servicios</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Comodidad_Servicios"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN BIENESTAR -->
+        <section id="bienestar" class="tab-pane">
+            <h1 class="main-title">BIENESTAR</h1>
+            <div class="sub-title">Beneficios y Becas</div>
+
+            <div class="item-container">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Subcategoría</th>
+                            <th>Polaridad</th>
+                            <th>Score / Eficacia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>BIENESTAR</th>
+                            <td>Beneficios y Becas</th>
+                            <td><span class="badge-neutral">Sin datos suficientes</span></th>
+                            <td><span class="text-muted">--</span></th>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><strong>Análisis (CES):</strong> No se reportaron datos específicos en esta categoría para Montería.</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights">
+                        <tr>
+                            <td>No se proporcionó información detallada durante la sesión.</th>
+                            <td>No se proporcionó información detallada durante la sesión.</th>
+                        </tr>
+                        <tr>
+                            <td>No se proporcionó información detallada durante la sesión.</th>
+                            <td>No se proporcionó información detallada durante la sesión.</th>
+                        </tr>
+                        <tr>
+                            <td>No se proporcionó información detallada durante la sesión.</th>
+                            <td>No se proporcionó información detallada durante la sesión.</th>
+                        </tr>
+                        <tr>
+                            <td>No se proporcionó información detallada durante la sesión.</th>
+                            <td>No se proporcionó información detallada durante la sesión.</th>
+                        <tr>
+                        <tr>
+                            <td>No se proporcionó información detallada durante la sesión.</th>
+                            <td>No se proporcionó información detallada durante la sesión.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container">
+                    <div class="verbatim">--</div>
+                    <div class="verbatim">--</div>
+                    <div class="verbatim">--</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_becas">Tickets</button>
+                <div class="collapse" id="tk_becas">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Beneficios y Becas</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Beneficios_Becas"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PERTENENCIA -->
+        <section id="pertenencia" class="tab-pane">
+            <h1 class="main-title">SENTIDO DE PERTENENCIA</h1>
+            <div class="sub-title">Identidad Cunista</div>
+
+            <div class="item-container">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Subcategoría</th>
+                            <th>Polaridad</th>
+                            <th>Score / Eficacia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>PERTENENCIA</th>
+                            <td>Orgullo y Recomendación</th>
+                            <td><span class="badge-pos">Positiva (cualitativo)</span></th>
+                            <td>No cuantificado</th>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><strong>Análisis (CES):</strong> El alumno se siente orgulloso de la institución pese a las fallas.</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights">
+                        <tr>
+                            <td>Se sienten orgullosos de estudiar en la CUN.</th>
+                            <td>Valoran la calidad docente y el apoyo de bienestar.</th>
+                        </tr>
+                        <tr>
+                              apesar de las dificultades, recomendarían la universidad.</th>
+                            <td>La amistad y el compañerismo son factores importantes.</th>
+                        </tr>
+                        <tr>
+                            <td>El ambiente familiar de la sede genera pertenencia.</th>
+                            <td>La flexibilidad horaria es muy valorada.</th>
+                        </tr>
+                        <tr>
+                            <td>Se percibe un progreso real en su formación.</th>
+                            <td>Los docentes locales son un motivo de orgullo.</th>
+                        </tr>
+                        <tr>
+                            <td>Desean que la sede mejore su infraestructura.</th>
+                            <td>Aprecian los espacios de integración deportiva y cultural.</th>
+                        </td>
+                    </table>
+                </ul>
+                <div class="verbatim-container">
+                    <div class="verbatim">"Para mí la CUN es mi puente... me ha permitido demostrar mi talento". – José Carlos</div>
+                    <div class="verbatim">"Yo siempre recomiendo la universidad por la calidad de la gente". – José Carlos</div>
+                    <div class="verbatim">"A pesar de los problemas, uno aquí se siente como en familia". – Helen Vanessa</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_orgullo">Tickets</button>
+                <div class="collapse" id="tk_orgullo">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Orgullo y Recomendación</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Orgullo_Recomendacion"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/graficasMonteria.js"></script>
+    <script src="../js/funciones.js"></script>
+</body>
+</html>

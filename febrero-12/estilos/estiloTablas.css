@@ -1,0 +1,86 @@
+/* Contenedor de la sección */
+#comparativa {
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-subtitle {
+    color: #1b5e20; /* Verde institucional oscuro */
+    margin-bottom: 20px;
+}
+
+/* Manejo del scroll y contenedor de tabla */
+.table-wrapper {
+    overflow-x: auto;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Estilo general de la tabla */
+.regional-analysis-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 1100px;
+    background-color: #ffffff;
+}
+
+/* Encabezados en verde oscuro */
+.regional-analysis-table th {
+    background-color: #2e7d32; 
+    color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ffffff;
+    text-align: center;
+}
+
+.regional-analysis-table th:first-child {
+    text-align: left;
+}
+
+/* Celdas */
+.regional-analysis-table td {
+    padding: 12px;
+    border: 1px solid #e8f5e9; /* Bordes en verde muy claro */
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+}
+
+/* Columna de categorías */
+.category-cell {
+    background-color: #f1f8e9; /* Fondo sutil verde/lima */
+    width: 220px;
+    color: #1b5e20;
+}
+
+/* Resaltado de puntajes en escala de verde */
+.score {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+/* Reemplazo de rojos por verdes suaves para mantener la escala */
+.score.green { color: #2e7d32; } /* Verde fuerte para lo excelente */
+.score.low { color: #81c784; }   /* Verde claro para lo que antes era rojo */
+
+/* Celdas de éxito (Puntajes 9-10) */
+.success-cell {
+    background-color: #c8e6c9 !important; /* Verde menta claro */
+}
+
+/* Celdas de puntaje bajo (Ahora en verde neutro, no rojo) */
+.neutral-cell {
+    background-color: #f9fbe7 !important; /* Un verde/amarillo muy pálido */
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    .regional-analysis-table td {
+        font-size: 13px;
+    }
+}

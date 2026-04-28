@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz de Auditoría Final - Sede Neiva</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/style.css">
+    
+    <!-- MAPA DE CAMPOS PARA ACTUALIZACIÓN AUTOMÁTICA -->
+    <script id="data-mapper" type="application/json">
+    {
+      "campos": {
+        "academico": {
+          "calidad-pensum": {
+            "score": "#score-calidad-pensum",
+            "polaridad": "#polaridad-calidad-pensum",
+            "analisis-ces": "#analisis-ces-calidad-pensum",
+            "interpretativos": ".interpretativo-calidad-pensum",
+            "verbatims": ".verbatim-calidad-pensum"
+          },
+          "docencia": {
+            "score": "#score-docencia",
+            "polaridad": "#polaridad-docencia",
+            "analisis-ces": "#analisis-ces-docencia",
+            "interpretativos": ".interpretativo-docencia",
+            "verbatims": ".verbatim-docencia"
+          },
+          "practicas": {
+            "score": "#score-practicas",
+            "polaridad": "#polaridad-practicas",
+            "analisis-ces": "#analisis-ces-practicas",
+            "interpretativos": ".interpretativo-practicas",
+            "verbatims": ".verbatim-practicas"
+          }
+        },
+        "tecnologico": {
+          "se-digital": {
+            "score": "#score-se-digital",
+            "polaridad": "#polaridad-se-digital",
+            "analisis-ces": "#analisis-ces-se-digital",
+            "interpretativos": ".interpretativo-se-digital",
+            "verbatims": ".verbatim-se-digital"
+          },
+          "sinu": {
+            "score": "#score-sinu",
+            "polaridad": "#polaridad-sinu",
+            "analisis-ces": "#analisis-ces-sinu",
+            "interpretativos": ".interpretativo-sinu",
+            "verbatims": ".verbatim-sinu"
+          },
+          "herramientas-aula": {
+            "score": "#score-herramientas-aula",
+            "polaridad": "#polaridad-herramientas-aula",
+            "analisis-ces": "#analisis-ces-herramientas-aula",
+            "interpretativos": ".interpretativo-herramientas-aula",
+            "verbatims": ".verbatim-herramientas-aula"
+          },
+          "laboratorio": {
+            "score": "#score-laboratorio",
+            "polaridad": "#polaridad-laboratorio",
+            "analisis-ces": "#analisis-ces-laboratorio",
+            "interpretativos": ".interpretativo-laboratorio",
+            "verbatims": ".verbatim-laboratorio"
+          }
+        },
+        "servicio": {
+          "camiticket": {
+            "score": "#score-camiticket",
+            "polaridad": "#polaridad-camiticket",
+            "analisis-ces": "#analisis-ces-camiticket",
+            "interpretativos": ".interpretativo-camiticket",
+            "verbatims": ".verbatim-camiticket"
+          },
+          "bienestar": {
+            "score": "#score-bienestar",
+            "polaridad": "#polaridad-bienestar",
+            "analisis-ces": "#analisis-ces-bienestar",
+            "interpretativos": ".interpretativo-bienestar",
+            "verbatims": ".verbatim-bienestar"
+          },
+          "infraestructura": {
+            "score": "#score-infraestructura",
+            "polaridad": "#polaridad-infraestructura",
+            "analisis-ces": "#analisis-ces-infraestructura",
+            "interpretativos": ".interpretativo-infraestructura",
+            "verbatims": ".verbatim-infraestructura"
+          }
+        },
+        "bienestar": {
+          "beneficios-becas": {
+            "score": "#score-beneficios-becas",
+            "polaridad": "#polaridad-beneficios-becas",
+            "analisis-ces": "#analisis-ces-beneficios-becas",
+            "interpretativos": ".interpretativo-beneficios-becas",
+            "verbatims": ".verbatim-beneficios-becas"
+          }
+        },
+        "pertenencia": {
+          "orgullo": {
+            "score": "#score-orgullo",
+            "polaridad": "#polaridad-orgullo",
+            "analisis-ces": "#analisis-ces-orgullo",
+            "interpretativos": ".interpretativo-orgullo",
+            "verbatims": ".verbatim-orgullo"
+          }
+        }
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="brand">CUN ANALYTICS</div>
+        <nav class="nav-menu">
+            <button class="nav-btn active" onclick="openTab(event, 'academico')">ACADÉMICO</button>
+            <button class="nav-btn" onclick="openTab(event, 'tecnologico')">TECNOLÓGICO</button>
+            <button class="nav-btn" onclick="openTab(event, 'servicio')">SERVICIO AL CLIENTE</button>
+            <button class="nav-btn" onclick="openTab(event, 'bienestar')">BIENESTAR</button>
+            <button class="nav-btn" onclick="openTab(event, 'pertenencia')">SENTIDO DE PERTENENCIA</button>
+            <li><button class="nav-btn" id="back-btn">Regresar</button></li>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+
+        <!-- SECCIÓN ACADÉMICO -->
+        <section id="academico" class="tab-pane active" style="display: block;">
+            <h1 class="main-title">ACADÉMICO</h1>
+            
+            <!-- TABLA DE POBLACIÓN ACTUALIZADA -->
+            <section>
+                <div class="item-container" data-component="poblacion">
+                    <table class="table-poblacion" data-table="poblacion">
+                        <thead>
+                            <tr>
+                                <th>Población</th>
+                                <th>Carrera</th>
+                                <th>Semestres</th>
+                                <th>Participantes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-field="poblacion-tipo">Estudiantes</td>
+                                <td data-field="poblacion-programa">Ingeniería de Sistemas</td>
+                                <td data-field="poblacion-semestre">1er a 9no semestre</td>
+                                <td data-field="poblacion-participantes">Juan Pablo, Deiby, Kevin, Juan Manuel y otros estudiantes (Sede Neiva)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Calidad del Pensum -->
+            <div data-categoria="academico" data-subcategoria="calidad-pensum" class="item-container">
+                <table class="table-principal">
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Subcategoría</th>
+                        <th>Polaridad</th>
+                        <th>Score / Eficacia</th>
+                    </tr>
+                    <tr>
+                        <td>ACADÉMICO</td>
+                        <td>Calidad del Pensum y Actualización</td>
+                        <td id="polaridad-calidad-pensum" data-field="polaridad"><span class="badge-pos">Positiva (+0.75)</span></td>
+                        <td id="score-calidad-pensum" data-field="score">8.0 / 10</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" id="analisis-ces-calidad-pensum" data-field="analisis-ces">
+                            <strong>Análisis (CES):</strong> Bajo: Contenidos interesantes y alineados con el perfil profesional.
+                        </td>
+                    </tr>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights" data-table="interpretativos-calidad-pensum">
+                        <tr>
+                            <td data-idx="1" class="interpretativo-calidad-pensum" data-field="interpretativo" data-num="1">1. Los estudiantes valoran la relevancia de las materias técnicas.</td>
+                            <td data-idx="2" class="interpretativo-calidad-pensum" data-field="interpretativo" data-num="2">2. Percepción de que el pensum es moderno y competitivo.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="3" class="interpretativo-calidad-pensum" data-field="interpretativo" data-num="3">3. Los contenidos digitales (ACA) son vistos como retos positivos.</td>
+                            <td data-idx="4" class="interpretativo-calidad-pensum" data-field="interpretativo" data-num="4">4. Existe una buena articulación entre los ciclos propedéuticos.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="5" class="interpretativo-calidad-pensum" data-field="interpretativo" data-num="5">5. Los temas de programación son el mayor foco de interés.</td>
+                            <td data-idx="6" class="interpretativo-calidad-pensum" data-field="interpretativo" data-num="6">6. Se aprecia la flexibilidad para investigar temas adicionales.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="7" class="interpretativo-calidad-pensum" data-field="interpretativo" data-num="7">7. El material de apoyo en plataforma es suficiente y claro.</td>
+                            <td data-idx="8" class="interpretativo-calidad-pensum" data-field="interpretativo" data-num="8">8. Los proyectos integradores ayudan a aplicar la teoría.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="9" class="interpretativo-calidad-pensum" data-field="interpretativo" data-num="9">9. Algunos estudiantes sugieren profundizar más en ciberseguridad.</td>
+                            <td data-idx="10" class="interpretativo-calidad-pensum" data-field="interpretativo" data-num="10">10. Satisfacción general con la ruta de aprendizaje propuesta.</td>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container" data-verbatims="calidad-pensum">
+                    <div data-verb-idx="1" class="verbatim verbatim-calidad-pensum" data-field="verbatim">"Los temas que vemos son muy interesantes y van acorde a lo que uno quiere."</div>
+                    <div data-verb-idx="2" class="verbatim verbatim-calidad-pensum" data-field="verbatim">"El pensum me parece que está muy bien estructurado para lo que pide el mercado."</div>
+                    <div data-verb-idx="3" class="verbatim verbatim-calidad-pensum" data-field="verbatim">"Sentimos que estamos aprendiendo lo que realmente se usa en las empresas..."</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_pensum">Tickets</button>
+                <div class="collapse" id="tk_pensum">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Calidad del Pensum</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Calidad_Pensum"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Docencia y Metodología -->
+            <div data-categoria="academico" data-subcategoria="docencia" class="item-container">
+                <table class="table-principal">
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Subcategoría</th>
+                        <th>Polaridad</th>
+                        <th>Score / Eficacia</th>
+                    </tr>
+                    <tr>
+                        <td>ACADÉMICO</td>
+                        <td>Docencia y Metodología</td>
+                        <td id="polaridad-docencia" data-field="polaridad"><span class="badge-pos">Positiva (+0.85)</span></td>
+                        <td id="score-docencia" data-field="score">9.0 / 10</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" id="analisis-ces-docencia" data-field="analisis-ces">
+                            <strong>Análisis (CES):</strong> Bajo: Docentes calificados que facilitan el aprendizaje.
+                        </td>
+                    </tr>
+                    <tr class="eval-docente">
+                        <td colspan="4" class="p-3">
+                            <strong class="me-2">Promedio Calificación evaluación docente</strong>
+                            <span class="badge border border-success-emphasis text-success-emphasis bg-success-subtle p-2 px-3" data-field="eval-docente">
+                                4.63
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights" data-table="interpretativos-docencia">
+                        <tr>
+                            <td data-idx="1" class="interpretativo-docencia" data-field="interpretativo" data-num="1">1. Los profesores tienen un alto dominio de los lenguajes de programación.</td>
+                            <td data-idx="2" class="interpretativo-docencia" data-field="interpretativo" data-num="2">2. La metodología de "aprender haciendo" es muy valorada.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="3" class="interpretativo-docencia" data-field="interpretativo" data-num="3">3. Existe una comunicación abierta y asertiva con los docentes.</td>
+                            <td data-idx="4" class="interpretativo-docencia" data-field="interpretativo" data-num="4">4. Se destaca la paciencia de los tutores en los primeros semestres.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="5" class="interpretativo-docencia" data-field="interpretativo" data-num="5">5. Los docentes locales son vistos como referentes profesionales.</td>
+                            <td data-idx="6" class="interpretativo-docencia" data-field="interpretativo" data-num="6">6. El acompañamiento en tutorías es efectivo y constante.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="7" class="interpretativo-docencia" data-field="interpretativo" data-num="7">7. Se valora el uso de ejemplos de la vida real en las clases.</td>
+                            <td data-idx="8" class="interpretativo-docencia" data-field="interpretativo" data-num="8">8. La evaluación es percibida como justa y transparente.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="9" class="interpretativo-docencia" data-field="interpretativo" data-num="9">9. Los profes motivan el pensamiento lógico y crítico.</td>
+                            <td data-idx="10" class="interpretativo-docencia" data-field="interpretativo" data-num="10">10. Es la dimensión con mayor estabilidad en la sede.</td>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container" data-verbatims="docencia">
+                    <div data-verb-idx="1" class="verbatim verbatim-docencia" data-field="verbatim">"Los docentes explican muy bien y se les nota el conocimiento."</div>
+                    <div data-verb-idx="2" class="verbatim verbatim-docencia" data-field="verbatim">"Uno siente la confianza de preguntar cuando no entiende algo."</div>
+                    <div data-verb-idx="3" class="verbatim verbatim-docencia" data-field="verbatim">"Los profes siempre están dispuestos a ayudarnos después de clase".</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_docencia">Tickets</button>
+                <div class="collapse" id="tk_docencia">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Docencia y Metodología</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Docencia_Metodologia"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Prácticas Profesionales -->
+            <div data-categoria="academico" data-subcategoria="practicas" class="item-container">
+                <table class="table-principal">
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Subcategoría</th>
+                        <th>Polaridad</th>
+                        <th>Score / Eficacia</th>
+                    </tr>
+                    <tr>
+                        <td>ACADÉMICO</td>
+                        <td>Prácticas Profesionales</td>
+                        <td id="polaridad-practicas" data-field="polaridad"><span class="badge-critico">Crítica (-0.70)</span></td>
+                        <td id="score-practicas" data-field="score">3.0 / 10</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" id="analisis-ces-practicas" data-field="analisis-ces">
+                            <strong>Análisis (CES):</strong> Extremo: Desinformación y falta de gestión para convenios.
+                        </td>
+                    </tr>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights" data-table="interpretativos-practicas">
+                        <tr>
+                            <td data-idx="1" class="interpretativo-practicas" data-field="interpretativo" data-num="1">1. Existe una confusión total sobre cuándo y cómo iniciar prácticas.</td>
+                            <td data-idx="2" class="interpretativo-practicas" data-field="interpretativo" data-num="2">2. Se percibe que no hay empresas de tecnología en Neiva con convenio.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="3" class="interpretativo-practicas" data-field="interpretativo" data-num="3">3. La respuesta de la oficina de prácticas en Bogotá es nula.</td>
+                            <td data-idx="4" class="interpretativo-practicas" data-field="interpretativo" data-num="4">4. Los estudiantes se sienten solos en la búsqueda de empresas.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="5" class="interpretativo-practicas" data-field="interpretativo" data-num="5">5. Temor a que la práctica retrase la graduación innecesariamente.</td>
+                            <td data-idx="6" class="interpretativo-practicas" data-field="interpretativo" data-num="6">6. Falta de claridad en los requisitos de legalización de contrato.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="7" class="interpretativo-practicas" data-field="interpretativo" data-num="7">7. Urge una feria de prácticas o gestor dedicado en la sede Neiva.</td>
+                            <td data-idx="8" class="interpretativo-practicas" data-field="interpretativo" data-num="8">8. Los procesos de autogestión son lentos y frustrantes.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="9" class="interpretativo-practicas" data-field="interpretativo" data-num="9">9. Los de último semestre están en un "limbo" administrativo.</td>
+                            <td data-idx="10" class="interpretativo-practicas" data-field="interpretativo" data-num="10">10. Es el mayor temor expresado por los estudiantes antiguos.</td>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container" data-verbatims="practicas">
+                    <div data-verb-idx="1" class="verbatim verbatim-practicas" data-field="verbatim">"No sabemos a dónde ir a preguntar por las prácticas, nadie nos da razón."</div>
+                    <div data-verb-idx="2" class="verbatim verbatim-practicas" data-field="verbatim">"En Neiva es difícil que una empresa acepte si la U no tiene el convenio listo."</div>
+                    <div data-verb-idx="3" class="verbatim verbatim-practicas" data-field="verbatim">"Duele ver que uno llega al final y se estanca por un papel."</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_practicas">Tickets</button>
+                <div class="collapse" id="tk_practicas">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Prácticas Profesionales</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Practicas_Profesionales"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN TECNOLÓGICO -->
+        <section id="tecnologico" class="tab-pane">
+            <h1 class="main-title">TECNOLÓGICO</h1>
+
+            <!-- Plataforma SE Digital -->
+            <div data-categoria="tecnologico" data-subcategoria="se-digital" class="item-container">
+                <table class="table-principal">
+                    </tr>
+                        <th>Categoría</th>
+                        <th>Subcategoría</th>
+                        <th>Polaridad</th>
+                        <th>Score / Eficacia</th>
+                    </tr>
+                    <tr>
+                        <td>TECNOLÓGICO</td>
+                        <td>Plataforma SE Digital</td>
+                        <td id="polaridad-se-digital" data-field="polaridad"><span class="badge-pos">Positiva (+0.82)</span></td>
+                        <td id="score-se-digital" data-field="score">8.5 / 10</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" id="analisis-ces-se-digital" data-field="analisis-ces">
+                            <strong>Análisis (CES):</strong> Bajo: Herramienta confiable y fácil de navegar.
+                        </td>
+                    </tr>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights" data-table="interpretativos-se-digital">
+                        <tr>
+                            <td data-idx="1" class="interpretativo-se-digital" data-field="interpretativo" data-num="1">1. Organización lógica de los bloques de aprendizaje.</td>
+                            <td data-idx="2" class="interpretativo-se-digital" data-field="interpretativo" data-num="2">2. Facilidad para cargar tareas y consultar calificaciones.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="3" class="interpretativo-se-digital" data-field="interpretativo" data-num="3">3. Los materiales (videos, PDFs) cargan rápidamente.</td>
+                            <td data-idx="4" class="interpretativo-se-digital" data-field="interpretativo" data-num="4">4. La interfaz es limpia y no genera confusión al usuario.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="5" class="interpretativo-se-digital" data-field="interpretativo" data-num="5">5. Estabilidad del sistema durante exámenes y cortes.</td>
+                            <td data-idx="6" class="interpretativo-se-digital" data-field="interpretativo" data-num="6">6. Los foros funcionan bien para la interacción grupal.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="7" class="interpretativo-se-digital" data-field="interpretativo" data-num="7">7. Es el canal principal de comunicación académica oficial.</td>
+                            <td data-idx="8" class="interpretativo-se-digital" data-field="interpretativo" data-num="8">8. Los tutoriales de inicio son efectivos para los nuevos.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="9" class="interpretativo-se-digital" data-field="interpretativo" data-num="9">9. Permite un buen seguimiento del avance del semestre.</td>
+                            <td data-idx="10" class="interpretativo-se-digital" data-field="interpretativo" data-num="10">10. Reportan alta satisfacción con la experiencia de usuario (UX).</td>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container" data-verbatims="se-digital">
+                    <div data-verb-idx="1" class="verbatim verbatim-se-digital" data-field="verbatim">"La plataforma es muy intuitiva, uno encuentra todo rápido."</div>
+                    <div data-verb-idx="2" class="verbatim verbatim-se-digital" data-field="verbatim">"Es mucho mejor que otras plataformas que he usado en otros lados."</div>
+                    <div data-verb-idx="3" class="verbatim verbatim-se-digital" data-field="verbatim">"Uno entra a la plataforma y ya la tarea se pasó porque el correo no llegó".</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_cdigital">Tickets</button>
+                <div class="collapse" id="tk_cdigital">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Plataforma SE Digital</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Tecnologico_Tickets"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plataforma SINU -->
+            <div data-categoria="tecnologico" data-subcategoria="sinu" class="item-container">
+                <table class="table-principal">
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Subcategoría</th>
+                        <th>Polaridad</th>
+                        <th>Score / Eficacia</th>
+                    </tr>
+                    <tr>
+                        <td>TECNOLÓGICO</td>
+                        <td>Plataforma SINU</td>
+                        <td id="polaridad-sinu" data-field="polaridad"><span class="badge-warn">Mixta (0.00)</span></td>
+                        <td id="score-sinu" data-field="score">4.0 / 10</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" id="analisis-ces-sinu" data-field="analisis-ces">
+                            <strong>Análisis (CES):</strong> Medio: Procesos administrativos lentos y visualmente tosco.
+                        </td>
+                    </tr>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights" data-table="interpretativos-sinu">
+                        <tr>
+                            <td data-idx="1" class="interpretativo-sinu" data-field="interpretativo" data-num="1">1. Registro de notas a veces tarda en sincronizarse con SE Digital.</td>
+                            <td data-idx="2" class="interpretativo-sinu" data-field="interpretativo" data-num="2">2. El proceso de matrícula académica es engorroso y confuso.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="3" class="interpretativo-sinu" data-field="interpretativo" data-num="3">3. Interfaz que se siente antigua y poco amigable.</td>
+                            <td data-idx="4" class="interpretativo-sinu" data-field="interpretativo" data-num="4">4. Los estudiantes solo la usan para ver horarios o pagar.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="5" class="interpretativo-sinu" data-field="interpretativo" data-num="5">5. Dificultad para generar certificados o documentos rápido.</td>
+                            <td data-idx="6" class="interpretativo-sinu" data-field="interpretativo" data-num="6">6. Se cae frecuentemente en días de cierre de notas.</td>
+                        <tr>
+                        <tr>
+                            <td data-idx="7" class="interpretativo-sinu" data-field="interpretativo" data-num="7">7. No hay una guía clara para procesos financieros complejos.</td>
+                            <td data-idx="8" class="interpretativo-sinu" data-field="interpretativo" data-num="8">8. La navegación no es fluida entre secciones.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="9" class="interpretativo-sinu" data-field="interpretativo" data-num="9">9. Reportan errores al intentar cambiar datos personales.</td>
+                            <td data-idx="10" class="interpretativo-sinu" data-field="interpretativo" data-num="10">10. Es el "dolor de cabeza" tecnológico recurrente.</td>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container" data-verbatims="sinu">
+                    <div data-verb-idx="1" class="verbatim verbatim-sinu" data-field="verbatim">"El SINU es muy aburridor, a veces uno se pierde buscando el horario."</div>
+                    <div data-verb-idx="2" class="verbatim verbatim-sinu" data-field="verbatim">"Para pagar la matrícula siempre es un problema que salga el recibo."</div>
+                    <div data-verb-idx="3" class="verbatim verbatim-sinu" data-field="verbatim">"Hay que ver si te queda la marca de pago en SINU."</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_sinu">Tickets</button>
+                <div class="collapse" id="tk_sinu">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Plataforma SINU</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_SINU"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Herramientas en Aula -->
+            <div data-categoria="tecnologico" data-subcategoria="herramientas-aula" class="item-container">
+                <table class="table-principal">
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Subcategoría</th>
+                        <th>Polaridad</th>
+                        <th>Score / Eficacia</th>
+                    </tr>
+                    <tr>
+                        <td>TECNOLÓGICO</td>
+                        <td>Herramientas en Aula (Hardware)</td>
+                        <td id="polaridad-herramientas-aula" data-field="polaridad"><span class="badge-critico">Crítica (-0.50)</span></td>
+                        <td id="score-herramientas-aula" data-field="score">5.0 / 10</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" id="analisis-ces-herramientas-aula" data-field="analisis-ces">
+                            <strong>Análisis (CES):</strong> Alto: Equipos básicos que no rinden para ingeniería.
+                        </td>
+                    </tr>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights" data-table="interpretativos-herramientas-aula">
+                        <tr>
+                            <td data-idx="1" class="interpretativo-herramientas-aula" data-field="interpretativo" data-num="1">1. Los computadores de la sede son lentos para virtualización.</td>
+                            <td data-idx="2" class="interpretativo-herramientas-aula" data-field="interpretativo" data-num="2">2. Falta de mantenimiento preventivo a teclados y mouses.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="3" class="interpretativo-herramientas-aula" data-field="interpretativo" data-num="3">3. Algunos salones no tienen suficientes proyectores funcionales.</td>
+                            <td data-idx="4" class="interpretativo-herramientas-aula" data-field="interpretativo" data-num="4">4. No hay tomas de corriente suficientes para todos los portátiles.</td>
+                        </tr>
+                        <tr>
+                            <td data-idx="5" class="interpretativo-herramientas-aula" data-field="interpretativo" data-num="5">5. El hardware disponible es limitado para correr IDEs pesados.</td>
+                            <td data-idx="6" class="interpretativo-herramientas-aula" data-field="interpretativo" data-num="6">6. Los televisores a veces no tienen los cables adecuados (HDMI).</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="7" class="interpretativo-herramientas-aula" data-field="interpretativo" data-num="7">7. Incomodidad por el estado de algunas mesas de trabajo.</td>
+                            <td data-idx="8" class="interpretativo-herramientas-aula" data-field="interpretativo" data-num="8">8. Se requiere actualización de RAM en los equipos de los laboratorios.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="9" class="interpretativo-herramientas-aula" data-field="interpretativo" data-num="9">9. Los estudiantes prefieren cargar sus propios equipos siempre.</th>
+                            <td data-idx="10" class="interpretativo-herramientas-aula" data-field="interpretativo" data-num="10">10. La tecnología de aula no refleja el costo de la carrera.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container" data-verbatims="herramientas-aula">
+                    <div data-verb-idx="1" class="verbatim verbatim-herramientas-aula" data-field="verbatim">"Los PCs de la sede se demoran mucho en abrir los programas de código."</div>
+                    <div data-verb-idx="2" class="verbatim verbatim-herramientas-aula" data-field="verbatim">"A veces toca turnarse el cargador porque no hay suficientes enchufes."</div>
+                    <div data-verb-idx="3" class="verbatim verbatim-herramientas-aula" data-field="verbatim">"El reflejo de la luz en el televisor hace que no se lea bien lo que escribe el profe".</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_hardware">Tickets</button>
+                <div class="collapse" id="tk_hardware">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Herramientas en Aula</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Herramientas_Aula"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Infraestructura de Laboratorio -->
+            <div data-categoria="tecnologico" data-subcategoria="laboratorio" class="item-container">
+                <table class="table-principal">
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Subcategoría</th>
+                        <th>Polaridad</th>
+                        <th>Score / Eficacia</th>
+                    </tr>
+                    <tr>
+                        <td>TECNOLÓGICO</th>
+                        <td>Infraestructura de Laboratorio</th>
+                        <td id="polaridad-laboratorio" data-field="polaridad"><span class="badge-critico">Crítica (-0.65)</span></th>
+                        <td id="score-laboratorio" data-field="score">4.0 / 10</th>
+                    </tr>
+                    <tr>
+                        <td colspan="4" id="analisis-ces-laboratorio" data-field="analisis-ces">
+                            <strong>Análisis (CES):</strong> Alto: Espacios compartidos y falta de kits técnicos.
+                        </th>
+                    </tr>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights" data-table="interpretativos-laboratorio">
+                        <tr>
+                            <td data-idx="1" class="interpretativo-laboratorio" data-field="interpretativo" data-num="1">1. Falta de kits de robótica y sensores para prácticas de hardware.</th>
+                            <td data-idx="2" class="interpretativo-laboratorio" data-field="interpretativo" data-num="2">2. Los laboratorios son usados por muchas carreras simultáneamente.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="3" class="interpretativo-laboratorio" data-field="interpretativo" data-num="3">3. El internet en el laboratorio de sistemas es intermitente.</th>
+                            <td data-idx="4" class="interpretativo-laboratorio" data-field="interpretativo" data-num="4">4. Ausencia de herramientas para prácticas de redes (ponchadoras).</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="5" class="interpretativo-laboratorio" data-field="interpretativo" data-num="5">5. El espacio físico se queda pequeño para grupos grandes.</th>
+                            <td data-idx="6" class="interpretativo-laboratorio" data-field="interpretativo" data-num="6">6. Aire acondicionado a veces no enfría lo suficiente (clima Neiva).</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="7" class="interpretativo-laboratorio" data-field="interpretativo" data-num="7">7. No hay un área de libre acceso para prácticas extracurriculares.</th>
+                            <td data-idx="8" class="interpretativo-laboratorio" data-field="interpretativo" data-num="8">8. Se depende de simuladores virtuales por falta de piezas físicas.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="9" class="interpretativo-laboratorio" data-field="interpretativo" data-num="9">9. Urge un inventario actualizado de componentes electrónicos.</th>
+                            <td data-idx="10" class="interpretativo-laboratorio" data-field="interpretativo" data-num="10">10. Sensación de que Neiva está en desventaja frente a sedes grandes.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container" data-verbatims="laboratorio">
+                    <div data-verb-idx="1" class="verbatim verbatim-laboratorio" data-field="verbatim">"En el laboratorio faltan muchas herramientas para las prácticas de redes."</div>
+                    <div data-verb-idx="2" class="verbatim verbatim-laboratorio" data-field="verbatim">"El internet se pone muy lento cuando todos estamos conectados en clase."</div>
+                    <div data-verb-idx="3" class="verbatim verbatim-laboratorio" data-field="verbatim">"Las torres que hay son muy pocas... tenemos que esperar a que alguien termine".</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_lab">Tickets</button>
+                <div class="collapse" id="tk_lab">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Infraestructura de Laboratorio</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Laboratorio"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SERVICIO AL CLIENTE -->
+        <section id="servicio" class="tab-pane">
+            <h1 class="main-title">SERVICIO AL CLIENTE</h1>
+
+            <!-- CamiTicket -->
+            <div data-categoria="servicio" data-subcategoria="camiticket" class="item-container">
+                <table class="table-principal">
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Subcategoría</th>
+                        <th>Polaridad</th>
+                        <th>Score / Eficacia</th>
+                    </tr>
+                    <tr>
+                        <td>SERVICIO AL CLIENTE</th>
+                        <td>CamiTicket y Respuesta</th>
+                        <td id="polaridad-camiticket" data-field="polaridad"><span class="badge-critico">Crítica (-0.90)</span></th>
+                        <td id="score-camiticket" data-field="score">2.0 / 10</th>
+                    </tr>
+                    <tr>
+                        <td colspan="4" id="analisis-ces-camiticket" data-field="analisis-ces">
+                            <strong>Análisis (CES):</strong> Insostenible: Respuestas automatizadas que no resuelven.
+                        </th>
+                    </tr>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights" data-table="interpretativos-camiticket">
+                        <tr>
+                            <td data-idx="1" class="interpretativo-camiticket" data-field="interpretativo" data-num="1">1. Los tickets se cierran sin una solución efectiva al problema.</th>
+                            <td data-idx="2" class="interpretativo-camiticket" data-field="interpretativo" data-num="2">2. Demoras de más de una semana para responder dudas financieras.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="3" class="interpretativo-camiticket" data-field="interpretativo" data-num="3">3. El lenguaje es percibido como robótico y poco humano.</th>
+                            <td data-idx="4" class="interpretativo-camiticket" data-field="interpretativo" data-num="4">4. El "peloteo" entre departamentos es constante y agotador.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="5" class="interpretativo-camiticket" data-field="interpretativo" data-num="5">5. No hay forma de escalar un problema si el ticket no avanza.</th>
+                            <td data-idx="6" class="interpretativo-camiticket" data-field="interpretativo" data-num="6">6. Los estudiantes se sienten ignorados por el nivel central.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="7" class="interpretativo-camiticket" data-field="interpretativo" data-num="7">7. Errores en recibos de pago tardan demasiado en corregirse.</th>
+                            <td data-idx="8" class="interpretativo-camiticket" data-field="interpretativo" data-num="8">8. Falta de un chat en vivo con agentes reales.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="9" class="interpretativo-camiticket" data-field="interpretativo" data-num="9">9. Genera una imagen negativa de la administración de la U.</th>
+                            <td data-idx="10" class="interpretativo-camiticket" data-field="interpretativo" data-num="10">10. Es el mayor motivo de queja de los padres de familia.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container" data-verbatims="camiticket">
+                    <div data-verb-idx="1" class="verbatim verbatim-camiticket" data-field="verbatim">"Uno pone un ticket y responden cualquier cosa a los 10 días."</div>
+                    <div data-verb-idx="2" class="verbatim verbatim-camiticket" data-field="verbatim">"Cierran el caso y el problema sigue ahí, es muy frustrante."</div>
+                    <div data-verb-idx="3" class="verbatim verbatim-camiticket" data-field="verbatim">"Parece que en Bogotá no supieran qué pasa aquí en Neiva".</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_camiticket">Tickets</button>
+                <div class="collapse" id="tk_camiticket">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - CamiTicket</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_CamiTicket"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bienestar Institucional -->
+            <div data-categoria="servicio" data-subcategoria="bienestar" class="item-container">
+                <table class="table-principal">
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Subcategoría</th>
+                        <th>Polaridad</th>
+                        <th>Score / Eficacia</th>
+                    </tr>
+                    <tr>
+                        <td>SERVICIO AL CLIENTE</th>
+                        <td>Bienestar Institucional</th>
+                        <td id="polaridad-bienestar" data-field="polaridad"><span class="badge-pos">Positiva (+0.95)</span></th>
+                        <td id="score-bienestar" data-field="score">9.5 / 10</th>
+                    </tr>
+                    <tr>
+                        <td colspan="4" id="analisis-ces-bienestar" data-field="analisis-ces">
+                            <strong>Análisis (CES):</strong> Bajo: Canal humano efectivo y mediador de conflictos.
+                        </th>
+                    </tr>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights" data-table="interpretativos-bienestar">
+                        <tr>
+                            <td data-idx="1" class="interpretativo-bienestar" data-field="interpretativo" data-num="1">1. Bienestar es el "salvavidas" cuando la administración falla.</th>
+                            <td data-idx="2" class="interpretativo-bienestar" data-field="interpretativo" data-num="2">2. Los líderes de bienestar en Neiva son muy conocidos y queridos.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="3" class="interpretativo-bienestar" data-field="interpretativo" data-num="3">3. Las actividades de deporte y danza tienen mucha acogida.</th>
+                            <td data-idx="4" class="interpretativo-bienestar" data-field="interpretativo" data-num="4">4. Se destaca el apoyo psicológico y emocional de la sede.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="5" class="interpretativo-bienestar" data-field="interpretativo" data-num="5">5. Bienestar comunica las noticias de la U de forma clara.</th>
+                            <td data-idx="6" class="interpretativo-bienestar" data-field="interpretativo" data-num="6">6. Fomentan la integración entre alumnos de diferentes semestres.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="7" class="interpretativo-bienestar" data-field="interpretativo" data-num="7">7. La atención presencial en la oficina de bienestar es excelente.</th>
+                            <td data-idx="8" class="interpretativo-bienestar" data-field="interpretativo" data-num="8">8. Los incentivos por participación son atractivos y motivadores.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="9" class="interpretativo-bienestar" data-field="interpretativo" data-num="9">9. Actúan como puente con los coordinadores de programa.</th>
+                            <td data-idx="10" class="interpretativo-bienestar" data-field="interpretativo" data-num="10">10. Es la sección que genera mayor felicidad estudiantil.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container" data-verbatims="bienestar">
+                    <div data-verb-idx="1" class="verbatim verbatim-bienestar" data-field="verbatim">"Bienestar es lo que más nos ayuda a nosotros aquí en Neiva."</div>
+                    <div data-verb-idx="2" class="verbatim verbatim-bienestar" data-field="verbatim">"Los de bienestar siempre están pendientes de lo que nos pasa."</div>
+                    <div data-verb-idx="3" class="verbatim verbatim-bienestar" data-field="verbatim">"Si no fuera por bienestar, uno andaría perdido con tantos trámites".</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_bienestar">Tickets</button>
+                <div class="collapse" id="tk_bienestar">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Bienestar Institucional</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Bienestar_Institucional"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- INFRAESTRUCTURA (Comodidad y Servicios Físicos) -->
+            <div data-categoria="servicio" data-subcategoria="infraestructura" class="item-container">
+                <h1 class="main-title" style="font-size: 1.8rem; margin-top: 2rem;">INFRAESTRUCTURA</h1>
+                <div class="sub-title">Comodidad y Servicios Físicos</div>
+                <table style="margin-top: 1rem;" class="table-principal">
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Subcategoría</th>
+                        <th>Polaridad</th>
+                        <th>Score / Eficacia</th>
+                    </tr>
+                    <tr class="odd">
+                        <td>INFRAESTRUCTURA</th>
+                        <td>Comodidad y Servicios Físicos</th>
+                        <td id="polaridad-infraestructura" data-field="polaridad"><span class="badge-critico">Crítica (-0.55)</span></th>
+                        <td id="score-infraestructura" data-field="score">5.0 / 10</th>
+                    </tr>
+                    <tr class="even">
+                        <td colspan="4" id="analisis-ces-infraestructura" data-field="analisis-ces">
+                            <strong>Análisis (CES):</strong> Alto: El calor de la ciudad supera la capacidad de la sede.
+                        </th>
+                    </tr>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights" data-table="interpretativos-infraestructura">
+                        <tr>
+                            <td data-idx="1" class="interpretativo-infraestructura" data-field="interpretativo" data-num="1">1. Los aires acondicionados no dan abasto para el clima de Neiva.</th>
+                            <td data-idx="2" class="interpretativo-infraestructura" data-field="interpretativo" data-num="2">2. Los baños requieren más insumos de aseo (papel, jabón).</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="3" class="interpretativo-infraestructura" data-field="interpretativo" data-num="3">3. No hay una zona de cafetería digna para almorzar o descansar.</th>
+                            <td data-idx="4" class="interpretativo-infraestructura" data-field="interpretativo" data-num="4">4. Sillas de los salones están desgastadas o son incómodas.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="5" class="interpretativo-infraestructura" data-field="interpretativo" data-num="5">5. Falta de bebederos de agua fría en toda la sede.</th>
+                            <td data-idx="6" class="interpretativo-infraestructura" data-field="interpretativo" data-num="6">6. El ruido de la calle se filtra en los salones del primer piso.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="7" class="interpretativo-infraestructura" data-field="interpretativo" data-num="7">7. Iluminación deficiente en algunas áreas durante la noche.</th>
+                            <td data-idx="8" class="interpretativo-infraestructura" data-field="interpretativo" data-num="8">8. La sede se percibe como "un edificio de oficinas" no como campus.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="9" class="interpretativo-infraestructura" data-field="interpretativo" data-num="9">9. Problemas de señal celular dentro de algunas aulas.</th>
+                            <td data-idx="10" class="interpretativo-infraestructura" data-field="interpretativo" data-num="10">10. Necesidad de más espacios verdes o de sombra en la sede.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container" data-verbatims="infraestructura">
+                    <div data-verb-idx="1" class="verbatim verbatim-infraestructura" data-field="verbatim">"En los salones hace mucho calor, los aires no enfrían casi nada."</div>
+                    <div data-verb-idx="2" class="verbatim verbatim-infraestructura" data-field="verbatim">"No hay un sitio cómodo para sentarse a esperar la siguiente clase."</div>
+                    <div data-verb-idx="3" class="verbatim verbatim-infraestructura" data-field="verbatim">"Si alguien se desmaya por el calor, no hay ni una enfermería básica".</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_infra">Tickets</button>
+                <div class="collapse" id="tk_infra">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Comodidad y Servicios</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Comodidad_Servicios"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN BIENESTAR -->
+        <section id="bienestar" class="tab-pane">
+            <h1 class="main-title">BIENESTAR</h1>
+            <div class="sub-title">Beneficios y Becas</div>
+
+            <div data-categoria="bienestar" data-subcategoria="beneficios-becas" class="item-container">
+                <table class="table-principal">
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Subcategoría</th>
+                        <th>Polaridad</th>
+                        <th>Score / Eficacia</th>
+                    </tr>
+                    <tr>
+                        <td>BIENESTAR</th>
+                        <td>Beneficios y Becas</th>
+                        <td id="polaridad-beneficios-becas" data-field="polaridad"><span class="badge-pos">Positiva (+0.88)</span></th>
+                        <td id="score-beneficios-becas" data-field="score">9.0 / 10</th>
+                    </tr>
+                    <tr>
+                        <td colspan="4" id="analisis-ces-beneficios-becas" data-field="analisis-ces">
+                            <strong>Análisis (CES):</strong> Bajo: Becas claras y fundamentales para la permanencia.
+                        </th>
+                    </tr>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights" data-table="interpretativos-beneficios-becas">
+                        <tr>
+                            <td data-idx="1" class="interpretativo-beneficios-becas" data-field="interpretativo" data-num="1">1. Las becas culturales y deportivas son el motor de participación.</th>
+                            <td data-idx="2" class="interpretativo-beneficios-becas" data-field="interpretativo" data-num="2">2. El proceso de aplicación a descuentos es sencillo y directo.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="3" class="interpretativo-beneficios-becas" data-field="interpretativo" data-num="3">3. Muchos estudiantes dependen de estas becas para no desertar.</th>
+                            <td data-idx="4" class="interpretativo-beneficios-becas" data-field="interpretativo" data-num="4">4. Los convenios de salud y recreación local son bien valorados.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="5" class="interpretativo-beneficios-becas" data-field="interpretativo" data-num="5">5. Bienestar explica muy bien cómo mantener los beneficios.</th>
+                            <td data-idx="6" class="interpretativo-beneficios-becas" data-field="interpretativo" data-num="6">6. Se premia el talento regional de forma justa.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="7" class="interpretativo-beneficios-becas" data-field="interpretativo" data-num="7">7. Las becas de excelencia académica motivan a los grupos.</th>
+                            <td data-idx="8" class="interpretativo-beneficios-becas" data-field="interpretativo" data-num="8">8. Los incentivos por monitorías son una gran ayuda económica.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="9" class="interpretativo-beneficios-becas" data-field="interpretativo" data-num="9">9. Se reconoce el esfuerzo de la U por mantener precios bajos.</th>
+                            <td data-idx="10" class="interpretativo-beneficios-becas" data-field="interpretativo" data-num="10">10. Los beneficios financieros son la razón de recomendación de la U.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container" data-verbatims="beneficios-becas">
+                    <div data-verb-idx="1" class="verbatim verbatim-beneficios-becas" data-field="verbatim">"Gracias a la beca de deporte he podido seguir estudiando."</div>
+                    <div data-verb-idx="2" class="verbatim verbatim-beneficios-becas" data-field="verbatim">"Los beneficios que dan por bienestar ayudan mucho al bolsillo."</div>
+                    <div data-verb-idx="3" class="verbatim verbatim-beneficios-becas" data-field="verbatim">"C Te Tiene nos ha servido cuando estamos muy estresados."</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_becas">Tickets</button>
+                <div class="collapse" id="tk_becas">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Beneficios y Becas</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Beneficios_Becas"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PERTENENCIA (Sin cambios - no hay datos en la tabla) -->
+        <section id="pertenencia" class="tab-pane">
+            <h1 class="main-title">SENTIDO DE PERTENENCIA</h1>
+            <div class="sub-title">Identidad Cunista</div>
+
+            <div data-categoria="pertenencia" data-subcategoria="orgullo" class="item-container">
+                <table class="table-principal">
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Subcategoría</th>
+                        <th>Polaridad</th>
+                        <th>Score / Eficacia</th>
+                    </tr>
+                    <tr>
+                        <td>PERTENENCIA</th>
+                        <td>Orgullo y Recomendación</th>
+                        <td id="polaridad-orgullo" data-field="polaridad"><span class="badge-pos">Positiva (+0.88)</span></th>
+                        <td id="score-orgullo" data-field="score">9.0 / 10</th>
+                    </tr>
+                    <tr>
+                        <td colspan="4" id="analisis-ces-orgullo" data-field="analisis-ces">
+                            <strong>Análisis (CES):</strong> El alumno defiende la universidad por su calidad docente.
+                        </th>
+                    </tr>
+                </table>
+                <div class="item-header">Análisis Interpretativo (10 Puntos)</div>
+                <ul class="analysis-list">
+                    <table class="tabla-insights" data-table="interpretativos-orgullo">
+                        <tr>
+                            <td data-idx="1" class="interpretativo-orgullo" data-field="interpretativo" data-num="1">1. Orgullo de pertenecer a una institución que trae tecnología a la región.</th>
+                            <td data-idx="2" class="interpretativo-orgullo" data-field="interpretativo" data-num="2">2. El carné de la CUN se porta con orgullo en la ciudad.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="3" class="interpretativo-orgullo" data-field="interpretativo" data-num="3">3. Identificación con la marca CUN como una opción de progreso real.</th>
+                            <td data-idx="4" class="interpretativo-orgullo" data-field="interpretativo" data-num="4">4. Sentimiento de gratitud por la flexibilidad horaria.</th>
+                        <tr>
+                        <tr>
+                            <td data-idx="5" class="interpretativo-orgullo" data-field="interpretativo" data-num="5">5. El estudiante se siente "Cunista" gracias a la cercanía con sus profes.</th>
+                            <td data-idx="6" class="interpretativo-orgullo" data-field="interpretativo" data-num="6">6. La universidad es vista como el "puente" al éxito profesional.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="7" class="interpretativo-orgullo" data-field="interpretativo" data-num="7">7. Recomendación boca a boca basada en el aprendizaje práctico.</th>
+                            <td data-idx="8" class="interpretativo-orgullo" data-field="interpretativo" data-num="8">8. Resiliencia del estudiante ante las fallas de infraestructura.</th>
+                        </tr>
+                        <tr>
+                            <td data-idx="9" class="interpretativo-orgullo" data-field="interpretativo" data-num="9">9. Vínculo emocional fuerte con los compañeros de la sede.</th>
+                            <td data-idx="10" class="interpretativo-orgullo" data-field="interpretativo" data-num="10">10. Deseo de ver la sede crecer y tener un edificio más moderno.</th>
+                        </tr>
+                    </table>
+                </ul>
+                <div class="verbatim-container" data-verbatims="orgullo">
+                    <div data-verb-idx="1" class="verbatim verbatim-orgullo" data-field="verbatim">"Para mí la CUN es mi puente... me ha permitido demostrar mi talento".</div>
+                    <div data-verb-idx="2" class="verbatim verbatim-orgullo" data-field="verbatim">"Yo siempre recomiendo la universidad por la calidad de la gente".</div>
+                    <div data-verb-idx="3" class="verbatim verbatim-orgullo" data-field="verbatim">"A pesar de los problemas, uno aquí se siente como en familia".</div>
+                </div>
+                <button class="btn-ticket" type="button" data-bs-toggle="collapse" data-bs-target="#tk_orgullo">Tickets</button>
+                <div class="collapse" id="tk_orgullo">
+                    <div class="ticket-collapse">
+                        <h6>Métrica - Orgullo y Recomendación</h6>
+                        <div style="width: 100%; max-width: 600px; margin: auto;">
+                            <canvas id="Grafica_Orgullo_Recomendacion"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/graficasNeiva.js"></script>
+    <script src="../js/funciones.js"></script>
+</body>
+</html>

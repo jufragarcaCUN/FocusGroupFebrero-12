@@ -1,3 +1,4 @@
+
 /* VARIABLES Y BASE */
 :root {
     --cun-green: #22c55e;
@@ -136,7 +137,7 @@ body {
 /* LISTAS GIGANTES */
 ul li {
     color: #166534 !important; 
-    font-size: 40px !important; 
+    font-size: 30px !important; 
     line-height: 1.1 !important;
     padding: 20px !important;
     margin-bottom: 20px !important;
@@ -950,7 +951,171 @@ td {
 #accordion-content {
     animation: fadeIn 0.4s ease;
 }
+.nav-menu {
+    max-height: 80vh;    /* Altura máxima de la barra lateral */
+    overflow-y: auto;    /* Habilita el subir y bajar */
+    padding-right: 5px;
+}
 
+/* Personalización de la barra de scroll */
+.nav-menu::-webkit-scrollbar {
+    width: 6px;
+}
+
+.nav-menu::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 10px;
+}
+/* estilos metodologia */
+/* PALETA DE COLORES VERDE INSTITUCIONAL */
+:root {
+    --green-dark: #1b4332;
+    --green-mid: #2d6a4f;
+    --green-bright: #40916c;
+    --green-light: #d8f3dc;
+    --green-soft: #f0fff4;
+    --sidebar-bg: #081c15;
+    --text-main: #2d3436;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8faf9;
+    color: var(--text-main);
+    overflow-x: hidden;
+}
+
+.app-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* SIDEBAR CON SCROLL INDEPENDIENTE */
+.sidebar-green {
+    width: 280px;
+    background-color: var(--sidebar-bg);
+    color: white;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+.sidebar-header {
+    padding: 2rem 1.5rem;
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #95d5b2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar-nav {
+    flex-grow: 1;
+    overflow-y: auto; /* SCROLL PARA SUBIR Y BAJAR BOTONES */
+    padding: 1rem;
+}
+
+/* Estética del Scrollbar para el menú */
+.sidebar-nav::-webkit-scrollbar {
+    width: 4px;
+}
+.sidebar-nav::-webkit-scrollbar-thumb {
+    background: var(--green-mid);
+    border-radius: 10px;
+}
+
+.nav-link {
+    color: #b7e4c7;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-link i { font-size: 1.1rem; }
+
+.nav-link:hover, .nav-link.active {
+    background-color: var(--green-mid);
+    color: white;
+    transform: translateX(5px);
+}
+
+.btn-back {
+    margin-top: 20px;
+    border: 1px solid var(--green-bright);
+    background: transparent;
+}
+
+/* ÁREA DE CONTENIDO */
+.main-viewport {
+    margin-left: 280px;
+    width: calc(100% - 280px);
+    transition: all 0.3s ease;
+}
+
+.content-header {
+    background: white;
+    padding: 1.5rem 2.5rem;
+    border-bottom: 2px solid var(--green-light);
+}
+
+/* TARJETAS Y COMPONENTES */
+.apa-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border-left: 6px solid var(--green-bright);
+}
+
+.glass-card {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--green-light);
+}
+
+.border-start-green {
+    border-left: 5px solid var(--green-dark) !important;
+}
+
+.card-stats {
+    background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
+    color: white;
+    border-radius: 12px;
+}
+
+.badge-green {
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    padding: 5px 10px;
+}
+
+.text-green-dark { color: var(--green-dark); }
+
+.bg-green-light { background-color: var(--green-light); }
+
+.custom-list li {
+    padding: 8px 0;
+    color: #4a4a4a;
+    font-size: 0.95rem;
+}
+
+.custom-list li i {
+    color: var(--green-bright);
+    margin-right: 10px;
+    font-size: 0.8rem;
+}
+
+.green-divider {
+    border-top: 2px solid var(--green-light);
+    opacity: 1;
+}
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
